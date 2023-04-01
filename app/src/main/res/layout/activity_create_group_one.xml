@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/layoutcolor"
+    tools:context=".group.CreateGroupActivity">
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        app:trackColor="#4003B3FD"
+        android:id="@+id/pb"
+        android:visibility="gone"
+        app:indicatorColor="#297AEE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/circle"
+            android:backgroundTint="?attr/backgroundcolor"
+            android:src="@drawable/ic_back"
+            tools:ignore="ContentDescription"
+            app:tint="#596C84" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/black"
+            android:text="Create Group"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:layout_centerInParent="true"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/group"
+            android:layout_gravity="start"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:hint="@string/group_name"
+            android:layout_marginStart="8dp"
+            android:background="@null"
+            android:textColor="?attr/textcolor"
+            android:imeOptions="actionSearch"
+            android:inputType="textNoSuggestions"
+            android:fontFamily="@font/bold_roboto"
+            android:textColorHint="?attr/texttwocolor"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            tools:ignore="Autofill"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/black"
+        android:text="Add members"
+        android:textColor="?attr/textcolor"
+        android:textSize="32sp"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_container"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+
+    <LinearLayout
+        android:id="@+id/nothing"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:alpha="0.4"
+            android:src="@drawable/ic_search"
+            android:layout_width="35dp"
+            android:layout_marginEnd="2dp"
+            android:layout_height="35dp"
+            tools:ignore="ContentDescription"
+            app:tint="?attr/texttwocolor" />
+
+        <TextView
+            android:alpha="0.5"
+            android:layout_marginTop="10dp"
+            android:text="@string/nothing_found"
+            android:fontFamily="@font/bold_roboto"
+            android:textColor="?attr/texttwocolor"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="@string/done"
+        android:textAllCaps="false"
+        android:stateListAnimator="@null"
+        android:backgroundTint="@color/colorPrimary"
+        android:background="@drawable/btn_round"
+        android:fontFamily="@font/bold_roboto"
+        android:textColor="#fff"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>

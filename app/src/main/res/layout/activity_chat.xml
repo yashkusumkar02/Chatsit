@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg_chat"
+    tools:context=".user.ChatActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/back"
+            android:src="@drawable/ic_back"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            tools:ignore="ContentDescription"
+            app:tint="?attr/layoutcolor" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold_roboto"
+                android:textColor="?attr/layoutcolor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.8"
+                android:fontFamily="@font/medium"
+                android:textColor="?attr/layoutcolor"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/call"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="10dp"
+                android:padding="6dp"
+                android:src="@drawable/ic_phone_bold"
+                tools:ignore="ContentDescription"
+                app:tint="?attr/layoutcolor" />
+
+            <ImageView
+                android:id="@+id/video"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:padding="6dp"
+                android:src="@drawable/ic_video"
+                tools:ignore="ContentDescription"
+                app:tint="?attr/layoutcolor" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@drawable/fragment_bg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <RelativeLayout
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:ignore="NestedWeights">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/chats"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:stackFromEnd="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/typing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <include layout="@layout/typing"/>
+        </LinearLayout>
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progressBar"
+            app:trackColor="?attr/layoutcolor"
+            app:indicatorColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:trackThickness="2dp"
+            app:trackCornerRadius="2dp"
+            android:indeterminate="true" />
+
+        <LinearLayout
+            android:background="?attr/layoutcolor"
+            android:elevation="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:targetApi="lollipop"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/reply"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                tools:ignore="UseCompoundDrawables">
+
+                <TextView
+                    android:id="@+id/reply_text"
+                    android:layout_marginStart="12dp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="?attr/texttwocolor"
+                    android:textStyle="italic"
+                    android:layout_width="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:ellipsize="end"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/delete"
+                    android:padding="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/ic_cancel"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    tools:targetApi="lollipop"
+                    tools:ignore="ContentDescription"
+                    app:tint="?attr/texttwocolor" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:id="@+id/other"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/add"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:padding="3dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/ic_add"
+                        tools:ignore="ContentDescription"
+                        app:tint="?attr/colorPrimary" />
+
+                    <EditText
+                        android:id="@+id/editText"
+                        android:background="@drawable/chatbox"
+                        android:backgroundTint="?attr/backgroundcolor"
+                        android:layout_weight="1"
+                        android:textSize="14sp"
+                        android:gravity="center_vertical"
+                        android:textColorHint="?attr/texttwocolor"
+                        android:paddingStart="10dp"
+                        android:fontFamily="@font/bold_roboto"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:hint="@string/send_message"
+                        android:layout_width="0dp"
+                        android:layout_height="32dp"
+                        tools:ignore="NestedWeights,RtlSymmetry"
+                        android:inputType="text"
+                        android:importantForAutofill="no" />
+
+                </LinearLayout>
+
+                <com.devlomi.record_view.RecordView
+                    android:id="@+id/record_view"
+                    android:layout_width="0dp"
+                    android:visibility="gone"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    app:slide_to_cancel_arrow="@drawable/ic_back"
+                    app:slide_to_cancel_arrow_color="#1C2A4D"
+                    app:slide_to_cancel_bounds="8dp"
+                    app:slide_to_cancel_margin_right="10dp"
+                    app:slide_to_cancel_text="Slide To Cancel"
+                    app:counter_time_color="@color/colorPrimary"
+                    />
+
+                <com.devlomi.record_view.RecordButton
+                    android:id="@+id/record_button"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginEnd="8dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_mic"
+                    android:tint="?attr/colorPrimary"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/send"
+                    android:padding="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/ic_send"
+                    android:background="@drawable/btn_round"
+                    android:backgroundTint="?attr/colorPrimary"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    tools:targetApi="lollipop"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

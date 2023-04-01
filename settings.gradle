@@ -1,0 +1,6 @@
+include ':nativetemplates'
+include ':deepar'
+include ':SimplePlacePicker-master'
+include ':Stipop'
+include ':app'
+rootProject.name = "ChatsiT"

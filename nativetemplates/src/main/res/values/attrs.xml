@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+  <declare-styleable name="TemplateView" tools:ignore="ResourceName">
+    <attr name="gnt_template_type" format="reference"/>
+  </declare-styleable>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">Privéchat met video</string>
+    <string name="one_title">Chatten</string>
+    <string name="two_des">Groepen maken of lid worden</string>
+    <string name="two_title">Groepen</string>
+    <string name="three_des">Maak een kijkfeest, cloudvergadering en verhalen</string>
+    <string name="three_title">Meer</string>
+    <string name="skip">Overslaan</string>
+    <string name="next">Volgende</string>
+    <string name="phone_no">Telefoon nr.</string>
+    <string name="please_enter_your_phone_no">Vul a.u.b. uw telefoonnr.</string>
+    <string name="generate_otp">OTP genereren</string>
+    <string name="please_enter_6_digit_otp">Voer een 6-cijferige OTP in</string>
+    <string name="_6_digit_otp">6-cijferige OTP</string>
+    <string name="verify_otp">Verifieer OTP</string>
+    <string name="signup">Inschrijven</string>
+    <string name="please_enter_profile_details">Voer a.u.b. profieldetails in</string>
+    <string name="name">Naam</string>
+    <string name="bio">Bio</string>
+    <string name="email">E-mail</string>
+    <string name="search">Zoekopdracht…</string>
+    <string name="save">Sparen</string>
+    <string name="send_message">Bericht versturen…</string>
+    <string name="link">Koppeling</string>
+    <string name="start">Begin</string>
+    <string name="upload_video_amp_start">Upload video</string>
+    <string name="or">---------- Of ----------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">Plak de videolink van YouTube of DailyMotion</string>
+    <string name="invite">Uitnodiging</string>
+    <string name="groups">Groepen</string>
+    <string name="users">Gebruikers</string>
+    <string name="agora_access_token">Uw Agora-toegangssleutel</string>
+    <string name="agora_app_id">Uw Agora-app-ID</string>
+    <string name="upload">Uploaden</string>
+    <string name="calling">Roeping</string>
+    <string name="group_name">Groepsnaam</string>
+    <string name="done">Gedaan</string>
+    <string name="add_members">Leden toevoegen</string>
+    <string name="delete_group">Groep verwijderen</string>
+    <string name="leave_group">Verlaat groep</string>
+    <string name="menu">Menu</string>
+    <string name="night_mode">Nachtstand</string>
+    <string name="translation">Vertaling</string>
+    <string name="edit_profile">Bewerk profiel</string>
+    <string name="invite_friend">Nodig een vriend uit</string>
+    <string name="notification">Kennisgeving</string>
+    <string name="delete_account">Account verwijderen</string>
+    <string name="privacy_policy">Privacybeleid</string>
+    <string name="terms_amp_conditions">voorwaarden</string>
+    <string name="logout">Uitloggen</string>
+    <string name="allow_group_notification">Groepsmelding toestaan</string>
+    <string name="allow_private_notification">Privémelding toestaan</string>
+    <string name="privacy_settings">Privacy instellingen</string>
+    <string name="profile_photo">Profielfoto</string>
+    <string name="online_status">Online status</string>
+    <string name="last_seen">Laatst gezien</string>
+    <string name="about">Over</string>
+    <string name="who_can_text_you">Wie kan je sms\'en</string>
+    <string name="everyone">Iedereen</string>
+    <string name="read_receipts">kwitanties lezen</string>
+    <string name="hold_to_open_tap_to_send">Houd ingedrukt om te openen, tik om te verzenden</string>
+    <string name="nothing_found">niets gevonden</string>
+    <string name="image">Afbeelding</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="document">Document</string>
+    <string name="location">Plaats</string>
+    <string name="sticker">Sticker</string>
+    <string name="watch_party">Kijk feest</string>
+    <string name="contact">Contact</string>
+    <string name="gif">GIF</string>
+    <string name="theme">Thema</string>
+    <string name="meeting">Ontmoeting</string>
+    <string name="delete">Verwijderen</string>
+    <string name="reply">Antwoord</string>
+    <string name="forward">Vooruit</string>
+    <string name="share">Deel</string>
+    <string name="download">Downloaden</string>
+    <string name="copy">Kopiëren</string>
+    <string name="theme_changed">Thema gewijzigd</string>
+    <string name="meeting_invitation">Uitnodiging voor een vergadering</string>
+    <string name="watch_party_invitation">Bekijk feestuitnodiging</string>
+    <string name="online">Online</string>
+    <string name="block">Blok</string>
+    <string name="report">Verslag doen van</string>
+    <string name="chat">Chatten</string>
+
+</resources>

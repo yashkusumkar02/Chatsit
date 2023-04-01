@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">Chat yakavanzika nevhidhiyo</string>
+    <string name="one_title">Chat</string>
+    <string name="two_des">Gadzira kana kujoinha mapoka</string>
+    <string name="two_title">Mapoka</string>
+    <string name="three_des">Gadzira bato rekurinda, musangano wegore uye Nhau</string>
+    <string name="three_title">More</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="phone_no">Nharembozha</string>
+    <string name="please_enter_your_phone_no">Isa foni yako nhamba.</string>
+    <string name="generate_otp">Gadzira OTP</string>
+    <string name="please_enter_6_digit_otp">Ndapota isa 6 manhamba OTP</string>
+    <string name="_6_digit_otp">6 Digit OTP</string>
+    <string name="verify_otp">Simbisa OTP</string>
+    <string name="signup">Nyorera</string>
+    <string name="please_enter_profile_details">Ndokumbira uise ruzivo rweprofile</string>
+    <string name="name">Zita</string>
+    <string name="bio">Bio</string>
+    <string name="email">Email</string>
+    <string name="search">Tsvaga…</string>
+    <string name="save">Sevha</string>
+    <string name="send_message" tools:ignore="TypographyEllipsis">Tumira meseji...</string>
+    <string name="link">Link</string>
+    <string name="start">Tanga</string>
+    <string name="upload_video_amp_start">Isa vhidhiyo</string>
+    <string name="or">---------- Kana ----------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">Namira vhidhiyo link kubva kuYouTube kana DailyMotion</string>
+    <string name="invite">Koka</string>
+    <string name="groups">Mapoka</string>
+    <string name="users">Vashandisi</string>
+    <string name="agora_access_token">Yako Agora Access Key</string>
+    <string name="agora_app_id">Yako Agora App Id</string>
+    <string name="upload">Upload</string>
+    <string name="calling">Kufona</string>
+    <string name="group_name">Zita reboka</string>
+    <string name="done">Ndapedza</string>
+    <string name="add_members">Wedzera Nhengo</string>
+    <string name="delete_group">Delete Group</string>
+    <string name="leave_group">Siya Group</string>
+    <string name="menu">Menu</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="translation">Shanduro</string>
+    <string name="edit_profile">Rongedza Profile</string>
+    <string name="invite_friend">Koka shamwari</string>
+    <string name="notification">Notification</string>
+    <string name="delete_account">Delete account</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_amp_conditions">Terms</string>
+    <string name="logout">Kubuda</string>
+    <string name="allow_group_notification">Bvumira Group Notification</string>
+    <string name="allow_private_notification">Bvumira Private Notification</string>
+    <string name="privacy_settings">Zvakavanzika Settings</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="online_status">Online Status</string>
+    <string name="last_seen">Kuonekwa Kwekupedzisira</string>
+    <string name="about">About</string>
+    <string name="who_can_text_you">Ndiani anogona kukutumira mameseji</string>
+    <string name="everyone">Munhu wese</string>
+    <string name="read_receipts">Verenga marisiti</string>
+    <string name="hold_to_open_tap_to_send">Bata kuti uvhure, Tinya kutumira</string>
+    <string name="nothing_found">Hapana Chakawanikwa</string>
+    <string name="image">Image</string>
+    <string name="video">Vhidhiyo</string>
+    <string name="audio">Vadivelu Comedy Audio</string>
+    <string name="document">Gwaro</string>
+    <string name="location">Nzvimbo</string>
+    <string name="sticker">Sticker</string>
+    <string name="watch_party">Watch Party</string>
+    <string name="contact">Contact</string>
+    <string name="gif">GIF</string>
+    <string name="theme">Theme</string>
+    <string name="meeting">Musangano</string>
+    <string name="delete">Delete</string>
+    <string name="reply">Reply</string>
+    <string name="forward">Pamberi</string>
+    <string name="share">Share</string>
+    <string name="download">Download</string>
+    <string name="copy">Copy</string>
+    <string name="theme_changed">Dingindira rakashanduka</string>
+    <string name="meeting_invitation">Kukoka kumusangano</string>
+    <string name="watch_party_invitation">Tarisa kukoka kwepati</string>
+    <string name="online">Online</string>
+    <string name="block">Block</string>
+    <string name="report">Report</string>
+    <string name="chat">Chat</string>
+</resources>

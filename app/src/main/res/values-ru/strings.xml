@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">Приватный чат с видео</string>
+    <string name="one_title">Чат</string>
+    <string name="two_des">Создавайте или присоединяйтесь к группам</string>
+    <string name="two_title">Группы</string>
+    <string name="three_des">Создайте вечеринку просмотра, облачную встречу и истории</string>
+    <string name="three_title">Более</string>
+    <string name="skip">Пропускать</string>
+    <string name="next">Следующий</string>
+    <string name="phone_no">Номер телефона.</string>
+    <string name="please_enter_your_phone_no">Пожалуйста, введите свой номер телефона.</string>
+    <string name="generate_otp">Создать одноразовый пароль</string>
+    <string name="please_enter_6_digit_otp">Пожалуйста, введите 6-значный OTP</string>
+    <string name="_6_digit_otp">6-значный одноразовый пароль</string>
+    <string name="verify_otp">Подтвердить одноразовый пароль</string>
+    <string name="signup">Зарегистрироваться</string>
+    <string name="please_enter_profile_details">Пожалуйста, введите данные профиля</string>
+    <string name="name">Имя</string>
+    <string name="bio">Био</string>
+    <string name="email">Электронное письмо</string>
+    <string name="search">Поиск…</string>
+    <string name="save">Сохранять</string>
+    <string name="send_message">Отправить сообщение…</string>
+    <string name="link">Ссылка на сайт</string>
+    <string name="start">Начинать</string>
+    <string name="upload_video_amp_start">Загрузить видео</string>
+    <string name="or">---------- Или ----------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">Вставьте ссылку на видео с YouTube или DailyMotion</string>
+    <string name="invite">Приглашать</string>
+    <string name="groups">Группы</string>
+    <string name="users">Пользователи</string>
+    <string name="agora_access_token">Ваш ключ доступа к Агоре</string>
+    <string name="agora_app_id">Идентификатор вашего приложения Agora</string>
+    <string name="upload">Загрузить</string>
+    <string name="calling">Вызов</string>
+    <string name="group_name">Название группы</string>
+    <string name="done">Сделанный</string>
+    <string name="add_members">Добавить участников</string>
+    <string name="delete_group">Удалить группу</string>
+    <string name="leave_group">Покинуть группу</string>
+    <string name="menu">Меню</string>
+    <string name="night_mode">Ночной режим</string>
+    <string name="translation">Перевод</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="invite_friend">Пригласить друга</string>
+    <string name="notification">Уведомление</string>
+    <string name="delete_account">Удалить аккаунт</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="terms_amp_conditions">Условия</string>
+    <string name="logout">Выйти</string>
+    <string name="allow_group_notification">Разрешить групповое уведомление</string>
+    <string name="allow_private_notification">Разрешить частное уведомление</string>
+    <string name="privacy_settings">Настройки конфиденциальности</string>
+    <string name="profile_photo">Аватар</string>
+    <string name="online_status">Статус онлайн</string>
+    <string name="last_seen">Последнее посещение</string>
+    <string name="about">О</string>
+    <string name="who_can_text_you">Кто может написать вам</string>
+    <string name="everyone">Все</string>
+    <string name="read_receipts">Чтение квитанций</string>
+    <string name="hold_to_open_tap_to_send">Удерживайте, чтобы открыть, нажмите, чтобы отправить</string>
+    <string name="nothing_found">Ничего не найдено</string>
+    <string name="image">Изображение</string>
+    <string name="video">видео</string>
+    <string name="audio">Аудио</string>
+    <string name="document">Документ</string>
+    <string name="location">Место расположения</string>
+    <string name="sticker">Наклейка</string>
+    <string name="watch_party">Смотреть вечеринку</string>
+    <string name="contact">Контакт</string>
+    <string name="gif">гифка</string>
+    <string name="theme">Тема</string>
+    <string name="meeting">Встреча</string>
+    <string name="delete">Удалить</string>
+    <string name="reply">Отвечать</string>
+    <string name="forward">Вперед</string>
+    <string name="share">доля</string>
+    <string name="download">Скачать</string>
+    <string name="copy">Копировать</string>
+    <string name="theme_changed">Тема изменена</string>
+    <string name="meeting_invitation">Приглашение на встречу</string>
+    <string name="watch_party_invitation">Приглашение на вечеринку</string>
+    <string name="online">онлайн</string>
+    <string name="block">Блокировать</string>
+    <string name="report">Отчет</string>
+    <string name="chat">Чат</string>
+
+</resources>

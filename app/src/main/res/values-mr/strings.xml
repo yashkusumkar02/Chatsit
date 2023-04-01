@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">व्हिडिओसह खाजगी चॅट</string>
+    <string name="one_title">गप्पा</string>
+    <string name="two_des">गट तयार करा किंवा त्यात सामील व्हा</string>
+    <string name="two_title">गट</string>
+    <string name="three_des">वॉच पार्टी, क्लाउड मीटिंग आणि स्टोरीज तयार करा</string>
+    <string name="three_title">अधिक</string>
+    <string name="skip">वगळा</string>
+    <string name="next">पुढे</string>
+    <string name="phone_no">दूरध्वनी क्रमांक.</string>
+    <string name="please_enter_your_phone_no">कृपया तुमचा फोन नं.</string>
+    <string name="generate_otp">OTP जनरेट करा</string>
+    <string name="please_enter_6_digit_otp">कृपया 6 अंकी OTP प्रविष्ट करा</string>
+    <string name="_6_digit_otp">6 अंकी OTP</string>
+    <string name="verify_otp">OTP सत्यापित करा</string>
+    <string name="signup">साइनअप करा</string>
+    <string name="please_enter_profile_details">कृपया प्रोफाइल तपशील प्रविष्ट करा</string>
+    <string name="name">नाव</string>
+    <string name="bio">जैव</string>
+    <string name="email">ईमेल</string>
+    <string name="search">शोधा…</string>
+    <string name="save">जतन करा</string>
+    <string name="send_message">संदेश पाठवा…</string>
+    <string name="link">दुवा</string>
+    <string name="start">सुरू करा</string>
+    <string name="upload_video_amp_start">व्हिडिओ अपलोड करा</string>
+    <string name="or">---------- किंवा ----------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">YouTube किंवा DailyMotion वरून व्हिडिओ लिंक पेस्ट करा</string>
+    <string name="invite">आमंत्रित करा</string>
+    <string name="groups">गट</string>
+    <string name="users">वापरकर्ते</string>
+    <string name="agora_access_token">तुमची Agora प्रवेश की</string>
+    <string name="agora_app_id">तुमचा Agora अॅप आयडी</string>
+    <string name="upload">अपलोड करा</string>
+    <string name="calling">कॉल करत आहे</string>
+    <string name="group_name">गटाचे नाव</string>
+    <string name="done">झाले</string>
+    <string name="add_members">सदस्य जोडा</string>
+    <string name="delete_group">गट हटवा</string>
+    <string name="leave_group">गट सोडा</string>
+    <string name="menu">मेनू</string>
+    <string name="night_mode">नाईट मोड</string>
+    <string name="translation">भाषांतर</string>
+    <string name="edit_profile">प्रोफाईल संपादित करा</string>
+    <string name="invite_friend">मित्राला आमंत्रित करा</string>
+    <string name="notification">सूचना</string>
+    <string name="delete_account">खाते हटवा</string>
+    <string name="privacy_policy">गोपनीयता धोरण</string>
+    <string name="terms_amp_conditions">अटी</string>
+    <string name="logout">बाहेर पडणे</string>
+    <string name="allow_group_notification">गट सूचनांना अनुमती द्या</string>
+    <string name="allow_private_notification">खाजगी सूचनांना अनुमती द्या</string>
+    <string name="privacy_settings">गोपनीयता सेटिंग्ज</string>
+    <string name="profile_photo">प्रोफाइल फोटो</string>
+    <string name="online_status">ऑनलाइन स्थिती</string>
+    <string name="last_seen">शेवटचे पाहिलेले</string>
+    <string name="about">बद्दल</string>
+    <string name="who_can_text_you">तुम्हाला कोण मजकूर पाठवू शकेल</string>
+    <string name="everyone">प्रत्येकजण</string>
+    <string name="read_receipts">पावत्या वाचा</string>
+    <string name="hold_to_open_tap_to_send">उघडण्यासाठी धरून ठेवा, पाठवण्यासाठी टॅप करा</string>
+    <string name="nothing_found">काहीही सापडले नाही</string>
+    <string name="image">प्रतिमा</string>
+    <string name="video">व्हिडिओ</string>
+    <string name="audio">ऑडिओ</string>
+    <string name="document">दस्तऐवज</string>
+    <string name="location">स्थान</string>
+    <string name="sticker">स्टिकर</string>
+    <string name="watch_party">पार्टी पहा</string>
+    <string name="contact">संपर्क करा</string>
+    <string name="gif">GIF</string>
+    <string name="theme">थीम</string>
+    <string name="meeting">बैठक</string>
+    <string name="delete">हटवा</string>
+    <string name="reply">उत्तर द्या</string>
+    <string name="forward">पुढे</string>
+    <string name="share">शेअर करा</string>
+    <string name="download">डाउनलोड करा</string>
+    <string name="copy">कॉपी करा</string>
+    <string name="theme_changed">थीम बदलली</string>
+    <string name="meeting_invitation">बैठकीचे आमंत्रण</string>
+    <string name="watch_party_invitation">पार्टीचे आमंत्रण पहा</string>
+    <string name="online">ऑनलाइन</string>
+    <string name="block">ब्लॉक करा</string>
+    <string name="report">अहवाल द्या</string>
+    <string name="chat">गप्पा</string>
+
+</resources>

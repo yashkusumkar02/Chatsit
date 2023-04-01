@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg_night"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_marginTop="60dp"
+        android:background="@drawable/fragment_bg"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/bottom"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container" />
+
+    <RelativeLayout
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/logo"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            tools:ignore="ContentDescription"
+            app:tint="#fff" />
+
+        <LinearLayout
+            android:layout_marginEnd="16dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginEnd="16dp"
+                android:id="@+id/search"
+                android:padding="5dp"
+                android:src="@drawable/ic_search"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                tools:ignore="ContentDescription"
+                app:tint="#fff" />
+
+            <ImageView
+                android:layout_marginEnd="16dp"
+                android:id="@+id/camera"
+                android:padding="5dp"
+                android:src="@drawable/ic_camera"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                tools:ignore="ContentDescription"
+                app:tint="#fff" />
+
+            <ImageView
+                android:id="@+id/user"
+                android:padding="7dp"
+                android:src="@drawable/ic_user"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                tools:ignore="ContentDescription"
+                app:tint="#fff" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottom"
+        android:background="?attr/layoutcolor"
+        android:elevation="8dp"
+        android:layout_height="wrap_content"
+        tools:ignore="UnusedAttribute">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_navigation"
+            app:itemIconTint="@color/selector"
+            app:itemIconSize="22dp"
+            app:labelVisibilityMode="unlabeled"
+            android:background="?attr/layoutcolor"
+            app:menu="@menu/bottom_nav" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

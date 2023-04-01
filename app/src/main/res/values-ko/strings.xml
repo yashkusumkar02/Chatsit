@@ -1,0 +1,122 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">영상으로 비공개 채팅</string>
+    <string name="one_title">채팅</string>
+    <string name="two_des">그룹 만들기 또는 가입</string>
+    <string name="two_title">여러 떼</string>
+    <string name="three_des">시계 파티, 클라우드 회의 및 스토리 생성</string>
+    <string name="three_title">더</string>
+    <string name="skip">건너 뛰다</string>
+    <string name="next">다음</string>
+    <string name="phone_no">전화 번호.</string>
+    <string name="please_enter_your_phone_no">전화번호를 입력하세요.</string>
+    <string name="generate_otp">OTP 생성</string>
+    <string name="please_enter_6_digit_otp">6자리 OTP를 입력하세요.</string>
+    <string name="_6_digit_otp">6자리 OTP</string>
+    <string name="verify_otp">OTP 확인</string>
+    <string name="signup">가입하기</string>
+    <string name="please_enter_profile_details">프로필 세부정보를 입력하세요.</string>
+    <string name="name">이름</string>
+    <string name="bio">바이오</string>
+    <string name="email">이메일</string>
+    <string name="search">찾다…</string>
+    <string name="save">구하다</string>
+    <string name="send_message">문자 보내…</string>
+    <string name="link">링크</string>
+    <string name="start">시작</string>
+    <string name="upload_video_amp_start">동영상 업로드</string>
+    <string name="or">---------- 또는 ----------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">YouTube 또는 DailyMotion에서 비디오 링크 붙여넣기</string>
+    <string name="invite">초대</string>
+    <string name="groups">여러 떼</string>
+    <string name="users">사용자</string>
+    <string name="agora_access_token">아고라 액세스 키</string>
+    <string name="agora_app_id">아고라 앱 ID</string>
+    <string name="upload">업로드</string>
+    <string name="calling">부름</string>
+    <string name="group_name">그룹 이름</string>
+    <string name="done">완료</string>
+    <string name="add_members">회원 추가</string>
+    <string name="delete_group">그룹 삭제</string>
+    <string name="leave_group">그룹을 떠나다</string>
+    <string name="menu">메뉴</string>
+    <string name="night_mode">야간 모드</string>
+    <string name="translation">번역</string>
+    <string name="edit_profile">프로필 편집</string>
+    <string name="invite_friend">친구를 초대하다</string>
+    <string name="notification">공고</string>
+    <string name="delete_account">계정 삭제</string>
+    <string name="privacy_policy">개인 정보 정책</string>
+    <string name="terms_amp_conditions">자귀</string>
+    <string name="logout">로그 아웃</string>
+    <string name="allow_group_notification">그룹 알림 허용</string>
+    <string name="allow_private_notification">비공개 알림 허용</string>
+    <string name="privacy_settings">개인 정보 설정</string>
+    <string name="profile_photo">프로필 사진</string>
+    <string name="online_status">온라인 상태</string>
+    <string name="last_seen">마지막으로 본</string>
+    <string name="about">에 대한</string>
+    <string name="who_can_text_you">누가 당신에게 문자를 보낼 수 있습니까?</string>
+    <string name="everyone">모든 사람</string>
+    <string name="read_receipts">영수증 읽기</string>
+    <string name="hold_to_open_tap_to_send">열려면 길게 누르고, 보내려면 탭하세요.</string>
+    <string name="nothing_found">아무것도 찾을 수 없음</string>
+    <string name="image">영상</string>
+    <string name="video">동영상</string>
+    <string name="audio">오디오</string>
+    <string name="document">문서</string>
+    <string name="location">위치</string>
+    <string name="sticker">상표</string>
+    <string name="watch_party">시계 파티</string>
+    <string name="contact">연락하다</string>
+    <string name="gif">GIF</string>
+    <string name="theme">주제</string>
+    <string name="meeting">회의</string>
+    <string name="delete">삭제</string>
+    <string name="reply">회신하다</string>
+    <string name="forward">앞으로</string>
+    <string name="share">공유하다</string>
+    <string name="download">다운로드</string>
+    <string name="copy">복사</string>
+    <string name="theme_changed">테마 변경됨</string>
+    <string name="meeting_invitation">회의 초대</string>
+    <string name="watch_party_invitation">파티 초대장 보기</string>
+    <string name="online">온라인</string>
+    <string name="block">블록</string>
+    <string name="report">보고서</string>
+    <string name="chat">채팅</string>
+
+</resources>

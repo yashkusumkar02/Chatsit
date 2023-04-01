@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">ከቪዲዮ ጋር የግል ውይይት</string>
+    <string name="one_title">ተወያይ</string>
+    <string name="two_des">ቡድኖችን ይፍጠሩ ወይም ይቀላቀሉ</string>
+    <string name="two_title">ቡድኖች</string>
+    <string name="three_des">የምልከታ ፓርቲ፣ የደመና ስብሰባ እና ታሪኮችን ይፍጠሩ</string>
+    <string name="three_title">ተጨማሪ</string>
+    <string name="skip">ዝለል</string>
+    <string name="next">ቀጥሎ</string>
+    <string name="phone_no">ስልክ ቁጥር.</string>
+    <string name="please_enter_your_phone_no">እባክዎን የስልክ ቁጥርዎን ያስገቡ።</string>
+    <string name="generate_otp">OTP ፍጠር</string>
+    <string name="please_enter_6_digit_otp">እባክዎ ባለ 6 አሃዝ OTP ያስገቡ</string>
+    <string name="_6_digit_otp">6 አሃዝ ኦቲፒ</string>
+    <string name="verify_otp">ኦቲፒን ያረጋግጡ</string>
+    <string name="signup">ክፈት</string>
+    <string name="please_enter_profile_details">እባክዎን የመገለጫ ዝርዝሮችን ያስገቡ</string>
+    <string name="name">ስም</string>
+    <string name="bio">ባዮ</string>
+    <string name="email">ኢሜይል</string>
+    <string name="search">ፈልግ…</string>
+    <string name="save">አስቀምጥ</string>
+    <string name="send_message">መልዕክት ላክ…</string>
+    <string name="link">አገናኝ</string>
+    <string name="start">ጀምር</string>
+    <string name="upload_video_amp_start">ቪዲዮ ስቀል</string>
+    <string name="or">-------ወይስ------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">የቪዲዮ ማገናኛን ከዩቲዩብ ወይም DailyMotion ለጥፍ</string>
+    <string name="invite">ጋብዝ</string>
+    <string name="groups">ቡድኖች</string>
+    <string name="users">ተጠቃሚዎች</string>
+    <string name="agora_access_token">የእርስዎ የአጎራ መዳረሻ ቁልፍ</string>
+    <string name="agora_app_id">የእርስዎ Agora መተግበሪያ መታወቂያ</string>
+    <string name="upload">ስቀል</string>
+    <string name="calling">በመደወል ላይ</string>
+    <string name="group_name">የቡድን ስም</string>
+    <string name="done">ተከናውኗል</string>
+    <string name="add_members">አባላትን ያክሉ</string>
+    <string name="delete_group">ቡድንን ሰርዝ</string>
+    <string name="leave_group">ቡድንን ይልቀቁ</string>
+    <string name="menu">ምናሌ</string>
+    <string name="night_mode">የምሽት ሁነታ</string>
+    <string name="translation">ትርጉም</string>
+    <string name="edit_profile">መገለጫ አርትዕ</string>
+    <string name="invite_friend">ጓደኛ ጋብዝ</string>
+    <string name="notification">ማስታወቂያ</string>
+    <string name="delete_account">መለያ ሰርዝ</string>
+    <string name="privacy_policy">የ ግል የሆነ</string>
+    <string name="terms_amp_conditions">ውሎች</string>
+    <string name="logout">ውጣ</string>
+    <string name="allow_group_notification">የቡድን ማስታወቂያ ፍቀድ</string>
+    <string name="allow_private_notification">የግል ማስታወቂያ ፍቀድ</string>
+    <string name="privacy_settings">የግላዊነት ቅንብሮች</string>
+    <string name="profile_photo">የመገለጫ ፎቶ</string>
+    <string name="online_status">የመስመር ላይ ሁኔታ</string>
+    <string name="last_seen">መጨረሻ ላይ የታዩት</string>
+    <string name="about">ስለ</string>
+    <string name="who_can_text_you">ማን መልእክት ሊልክልህ ይችላል።</string>
+    <string name="everyone">ሁሉም ሰው</string>
+    <string name="read_receipts">ደረሰኞች ያንብቡ</string>
+    <string name="hold_to_open_tap_to_send">ለመክፈት ይያዙ፣ ለመላክ ነካ ያድርጉ</string>
+    <string name="nothing_found">ምንም አልተገኘም።</string>
+    <string name="image">ምስል</string>
+    <string name="video">ቪዲዮ</string>
+    <string name="audio">ኦዲዮ</string>
+    <string name="document">ሰነድ</string>
+    <string name="location">አካባቢ</string>
+    <string name="sticker">ተለጣፊ</string>
+    <string name="watch_party">ድግስ ይመልከቱ</string>
+    <string name="contact">ተገናኝ</string>
+    <string name="gif">GIF</string>
+    <string name="theme">ጭብጥ</string>
+    <string name="meeting">ስብሰባ</string>
+    <string name="delete">ሰርዝ</string>
+    <string name="reply">መልስ</string>
+    <string name="forward">ወደፊት</string>
+    <string name="share">አጋራ</string>
+    <string name="download">አውርድ</string>
+    <string name="copy">ቅዳ</string>
+    <string name="theme_changed">ጭብጥ ተለውጧል</string>
+    <string name="meeting_invitation">የስብሰባ ግብዣ</string>
+    <string name="watch_party_invitation">የፓርቲ ግብዣን ይመልከቱ</string>
+    <string name="online">መስመር ላይ</string>
+    <string name="block">አግድ</string>
+    <string name="report">ሪፖርት አድርግ</string>
+    <string name="chat">ተወያይ</string>
+
+</resources>

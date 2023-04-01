@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconDuplicates">
+        <ignore path="src/main/res/mipmap-hdpi/ic_close_border_1.png" />
+        <ignore path="src/main/res/mipmap-hdpi/ic_close_border_2.png" />
+        <ignore path="src/main/res/mipmap-hdpi/ic_close_border_3.png" />
+        <ignore path="src/main/res/mipmap-hdpi/ic_erase_border_1.png" />
+        <ignore path="src/main/res/mipmap-hdpi/ic_erase_border_2.png" />
+        <ignore path="src/main/res/mipmap-hdpi/ic_erase_border_3.png" />
+        <ignore path="src/main/res/mipmap-mdpi/ic_close_border_1.png" />
+        <ignore path="src/main/res/mipmap-mdpi/ic_close_border_2.png" />
+        <ignore path="src/main/res/mipmap-mdpi/ic_close_border_3.png" />
+        <ignore path="src/main/res/mipmap-mdpi/ic_erase_border_1.png" />
+        <ignore path="src/main/res/mipmap-mdpi/ic_erase_border_2.png" />
+        <ignore path="src/main/res/mipmap-mdpi/ic_erase_border_3.png" />
+        <ignore path="src/main/res/mipmap-xhdpi/ic_close_border_1.png" />
+        <ignore path="src/main/res/mipmap-xhdpi/ic_close_border_2.png" />
+        <ignore path="src/main/res/mipmap-xhdpi/ic_close_border_3.png" />
+        <ignore path="src/main/res/mipmap-xhdpi/ic_erase_border_1.png" />
+        <ignore path="src/main/res/mipmap-xhdpi/ic_erase_border_2.png" />
+        <ignore path="src/main/res/mipmap-xhdpi/ic_erase_border_3.png" />
+        <ignore path="src/main/res/mipmap-xxhdpi/ic_close_border_1.png" />
+        <ignore path="src/main/res/mipmap-xxhdpi/ic_close_border_2.png" />
+        <ignore path="src/main/res/mipmap-xxhdpi/ic_close_border_3.png" />
+        <ignore path="src/main/res/mipmap-xxhdpi/ic_erase_border_1.png" />
+        <ignore path="src/main/res/mipmap-xxhdpi/ic_erase_border_2.png" />
+        <ignore path="src/main/res/mipmap-xxhdpi/ic_erase_border_3.png" />
+        <ignore path="src/main/res/mipmap-xxxhdpi/ic_close_border_1.png" />
+        <ignore path="src/main/res/mipmap-xxxhdpi/ic_close_border_2.png" />
+        <ignore path="src/main/res/mipmap-xxxhdpi/ic_close_border_3.png" />
+        <ignore path="src/main/res/mipmap-xxxhdpi/ic_erase_border_1.png" />
+        <ignore path="src/main/res/mipmap-xxxhdpi/ic_erase_border_2.png" />
+        <ignore path="src/main/res/mipmap-xxxhdpi/ic_erase_border_3.png" />
+    </issue>
+    <issue id="UnusedResources">
+        <ignore path="src/main/res/mipmap-hdpi/banner_card_trending.png" />
+        <ignore path="src/main/res/mipmap-hdpi/ic_add_border_1.png" />
+        <ignore path="src/main/res/mipmap-mdpi/banner_card_trending.png" />
+        <ignore path="src/main/res/mipmap-xhdpi/banner_card_trending.png" />
+        <ignore path="src/main/res/mipmap-xxhdpi/banner_card_trending.png" />
+        <ignore path="src/main/res/mipmap-xxhdpi/list_type_b_copy_3.png" />
+        <ignore path="src/main/res/mipmap-xxxhdpi/banner_card_trending.png" />
+    </issue>
+</lint>

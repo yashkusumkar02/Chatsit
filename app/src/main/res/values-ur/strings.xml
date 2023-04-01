@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">ویڈیو کے ساتھ نجی چیٹ</string>
+    <string name="one_title">گپ شپ</string>
+    <string name="two_des">گروپ بنائیں یا ان میں شامل ہوں۔</string>
+    <string name="two_title">گروپس</string>
+    <string name="three_des">واچ پارٹی، کلاؤڈ میٹنگ اور کہانیاں بنائیں</string>
+    <string name="three_title">مزید</string>
+    <string name="skip">چھوڑ دو</string>
+    <string name="next">اگلے</string>
+    <string name="phone_no">فون نمبر.</string>
+    <string name="please_enter_your_phone_no">براہ کرم اپنا فون نمبر درج کریں۔</string>
+    <string name="generate_otp">OTP بنائیں</string>
+    <string name="please_enter_6_digit_otp">براہ کرم 6 ہندسوں کا OTP درج کریں۔</string>
+    <string name="_6_digit_otp">6 عددی OTP</string>
+    <string name="verify_otp">OTP کی تصدیق کریں۔</string>
+    <string name="signup">سائن اپ</string>
+    <string name="please_enter_profile_details">براہ کرم پروفائل کی تفصیلات درج کریں۔</string>
+    <string name="name">نام</string>
+    <string name="bio">بایو</string>
+    <string name="email">ای میل</string>
+    <string name="search">تلاش کریں…</string>
+    <string name="save">محفوظ کریں۔</string>
+    <string name="send_message">پیغام بھیجیں…</string>
+    <string name="link">لنک</string>
+    <string name="start">شروع کریں</string>
+    <string name="upload_video_amp_start">ویڈیو اپ لوڈ کریں۔</string>
+    <string name="or">---------- یا ----------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">یوٹیوب یا ڈیلی موشن سے ویڈیو لنک پیسٹ کریں۔</string>
+    <string name="invite">دعوت دیں۔</string>
+    <string name="groups">گروپس</string>
+    <string name="users">صارفین</string>
+    <string name="agora_access_token">آپ کی اگورا رسائی کلید</string>
+    <string name="agora_app_id">آپ کی اگورا ایپ آئی ڈی</string>
+    <string name="upload">اپ لوڈ کریں۔</string>
+    <string name="calling">کال کرنا</string>
+    <string name="group_name">گروہ کا نام</string>
+    <string name="done">ہو گیا</string>
+    <string name="add_members">ممبرز کو شامل کریں۔</string>
+    <string name="delete_group">گروپ کو حذف کریں۔</string>
+    <string name="leave_group">گروپ چھوڑ دیں۔</string>
+    <string name="menu">مینو</string>
+    <string name="night_mode">نائٹ موڈ</string>
+    <string name="translation">ترجمہ</string>
+    <string name="edit_profile">پروفائل میں ترمیم کریں</string>
+    <string name="invite_friend">دوست کو مدعو کریں۔</string>
+    <string name="notification">اطلاع</string>
+    <string name="delete_account">کھاتہ مٹا دو</string>
+    <string name="privacy_policy">رازداری کی پالیسی</string>
+    <string name="terms_amp_conditions">شرائط</string>
+    <string name="logout">لاگ آوٹ</string>
+    <string name="allow_group_notification">گروپ نوٹیفکیشن کی اجازت دیں۔</string>
+    <string name="allow_private_notification">نجی اطلاع کی اجازت دیں۔</string>
+    <string name="privacy_settings">رازداری کی ترتیبات</string>
+    <string name="profile_photo">پروفائل فوٹو</string>
+    <string name="online_status">آن لائن اسٹیٹس</string>
+    <string name="last_seen">آخری بار دیکھا</string>
+    <string name="about">کے بارے میں</string>
+    <string name="who_can_text_you">کون آپ کو متن بھیج سکتا ہے۔</string>
+    <string name="everyone">ہر کوئی</string>
+    <string name="read_receipts">رسیدیں پڑھیں</string>
+    <string name="hold_to_open_tap_to_send">کھولنے کے لیے تھامیں، بھیجنے کے لیے تھپتھپائیں۔</string>
+    <string name="nothing_found">کچھ نہیں ملا</string>
+    <string name="image">تصویر</string>
+    <string name="video">ویڈیو</string>
+    <string name="audio">آڈیو</string>
+    <string name="document">دستاویز</string>
+    <string name="location">مقام</string>
+    <string name="sticker">اسٹیکر</string>
+    <string name="watch_party">پارٹی دیکھیں</string>
+    <string name="contact">رابطہ کریں۔</string>
+    <string name="gif">GIF</string>
+    <string name="theme">خیالیہ</string>
+    <string name="meeting">ملاقات</string>
+    <string name="delete">حذف کریں۔</string>
+    <string name="reply">جواب دیں۔</string>
+    <string name="forward">آگے</string>
+    <string name="share">بانٹیں</string>
+    <string name="download">ڈاؤن لوڈ کریں</string>
+    <string name="copy">کاپی کریں۔</string>
+    <string name="theme_changed">تھیم بدل گیا۔</string>
+    <string name="meeting_invitation">ملاقات کی دعوت</string>
+    <string name="watch_party_invitation">پارٹی کی دعوت دیکھیں</string>
+    <string name="online">آن لائن</string>
+    <string name="block">بلاک</string>
+    <string name="report">رپورٹ</string>
+    <string name="chat">گپ شپ</string>
+
+</resources>

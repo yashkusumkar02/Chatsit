@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/layoutcolor"
+    android:orientation="vertical"
+    tools:context=".user.NotificationSettingActivity">
+
+    <RelativeLayout
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/circle"
+            android:backgroundTint="?attr/backgroundcolor"
+            android:src="@drawable/ic_back"
+            tools:ignore="ContentDescription"
+            app:tint="#596C84" />
+
+        <TextView
+            android:text="@string/notification"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/black"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="34dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/group"
+            android:checked="true"
+            android:layout_width="45dp"
+            android:layout_height="45dp"/>
+
+        <TextView
+            android:text="@string/allow_group_notification"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:textColor="?attr/textcolor"
+            android:fontFamily="@font/bold_roboto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/chat"
+            android:checked="true"
+            android:layout_width="45dp"
+            android:layout_height="45dp"/>
+
+        <TextView
+            android:text="@string/allow_private_notification"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:textColor="?attr/textcolor"
+            android:fontFamily="@font/bold_roboto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/save"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_round"
+        android:backgroundTint="@color/colorPrimary"
+        tools:ignore="UnusedAttribute">
+
+        <TextView
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:text="@string/save"
+            android:fontFamily="@font/bold_roboto"
+            android:textAllCaps="false"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="RelativeOverlap" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp"
+            android:visibility="gone"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:indeterminate="true"
+            android:theme="@style/AppTheme.WhiteAccent" />
+
+    </RelativeLayout>
+
+</LinearLayout>

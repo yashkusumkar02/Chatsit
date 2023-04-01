@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/layoutcolor"
+    android:layout_height="match_parent"
+    tools:context=".group.EditGroupActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/circle"
+        android:src="@drawable/ic_back"
+        android:tint="#1C2A4D"
+        android:backgroundTint="#E4EAF1"
+        tools:ignore="ContentDescription,UnusedAttribute,UseAppTint" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/group"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:src="@drawable/ic_user"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="?attr/texttwocolor" />
+
+                <TextView
+                    android:textColor="?attr/texttwocolor"
+                    android:ellipsize="end"
+                    android:layout_marginStart="10dp"
+                    android:textSize="18sp"
+                    android:text="@string/name"
+                    android:maxLines="1"
+                    android:fontFamily="@font/bold_roboto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_marginTop="8dp"
+                android:hint="@string/name"
+                android:background="@null"
+                android:inputType="text|textNoSuggestions"
+                android:maxLines="1"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:textColor="?attr/textcolor"
+                android:textColorHint="?attr/texttwocolor"
+                android:fontFamily="@font/medium"
+                android:layout_height="45dp"
+                tools:ignore="Autofill" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:src="@drawable/ic_info_bold"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="?attr/texttwocolor" />
+
+                <TextView
+                    android:textColor="?attr/texttwocolor"
+                    android:ellipsize="end"
+                    android:layout_marginStart="10dp"
+                    android:textSize="18sp"
+                    android:text="@string/bio"
+                    android:maxLines="1"
+                    android:fontFamily="@font/bold_roboto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_marginTop="8dp"
+                android:hint="@string/bio"
+                android:background="@null"
+                android:inputType="text|textNoSuggestions"
+                android:maxLines="1"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/bio"
+                android:layout_width="match_parent"
+                android:textColor="?attr/textcolor"
+                android:textColorHint="?attr/texttwocolor"
+                android:fontFamily="@font/medium"
+                android:layout_height="45dp"
+                tools:ignore="Autofill" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/save"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/btn_round"
+                android:backgroundTint="@color/colorPrimary"
+                tools:ignore="UnusedAttribute,UselessParent">
+
+                <TextView
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:text="@string/save"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textAllCaps="false"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:ignore="RelativeOverlap" />
+
+                <ProgressBar
+                    android:id="@+id/progress"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp"
+                    android:visibility="gone"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:indeterminate="true"
+                    android:theme="@style/AppTheme.WhiteAccent" />
+
+            </RelativeLayout>
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

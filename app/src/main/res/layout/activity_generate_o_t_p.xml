@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/layoutcolor"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".auth.GenerateOTPActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/one"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/black"
+            android:text="@string/phone_no"
+            android:textColor="#1C2A4D"
+            android:textSize="45sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/medium"
+            android:text="@string/please_enter_your_phone_no"
+            android:textColor="#1C2A4D"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <ImageView
+                android:src="@drawable/ic_phone"
+                android:layout_width="45dp"
+                android:padding="10dp"
+                android:layout_height="45dp"
+                tools:ignore="ContentDescription"
+                app:tint="?attr/texttwocolor" />
+
+            <EditText
+                android:layout_weight="1"
+                android:hint="@string/phone_no"
+                android:background="@null"
+                android:inputType="phone|textNoSuggestions"
+                android:maxLines="1"
+                android:layout_marginStart="8dp"
+                android:id="@+id/phone"
+                android:layout_width="0dp"
+                android:textColor="?attr/textcolor"
+                android:textColorHint="?attr/texttwocolor"
+                android:fontFamily="@font/bold_roboto"
+                android:layout_height="45dp"
+                android:importantForAutofill="no" />
+
+        </LinearLayout>
+
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/code"
+            android:visibility="gone"
+            app:ccp_autoDetectCountry="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:id="@+id/signIn"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/btn_round"
+            android:backgroundTint="@color/colorPrimary"
+            tools:ignore="UnusedAttribute">
+
+            <TextView
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:text="@string/generate_otp"
+                android:fontFamily="@font/bold_roboto"
+                android:textAllCaps="false"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="RelativeOverlap" />
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="8dp"
+                android:visibility="gone"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:indeterminate="true"
+                android:theme="@style/AppTheme.WhiteAccent" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

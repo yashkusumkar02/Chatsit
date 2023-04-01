@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">Hira ta sirri tare da bidiyo</string>
+    <string name="one_title">Taɗi</string>
+    <string name="two_des">Ƙirƙiri ko shiga ƙungiyoyi</string>
+    <string name="two_title">Ƙungiyoyi</string>
+    <string name="three_des">Ƙirƙiri taron kallo, taron gajimare da Labarai</string>
+    <string name="three_title">Kara</string>
+    <string name="skip">Tsallake</string>
+    <string name="next">Na gaba</string>
+    <string name="phone_no">Lambar waya.</string>
+    <string name="please_enter_your_phone_no">Da fatan za a shigar da lambar wayar ku.</string>
+    <string name="generate_otp">Ƙirƙirar OTP</string>
+    <string name="please_enter_6_digit_otp">Da fatan za a shigar da OTP lambobi 6</string>
+    <string name="_6_digit_otp">6 Lambobin OTP</string>
+    <string name="verify_otp">Tabbatar da OTP</string>
+    <string name="signup">Shiga</string>
+    <string name="please_enter_profile_details">Da fatan za a shigar da bayanan bayanan martaba</string>
+    <string name="name">Suna</string>
+    <string name="bio">Bio</string>
+    <string name="email">Imel</string>
+    <string name="search">Bincika…</string>
+    <string name="save">Ajiye</string>
+    <string name="send_message">Aika sako…</string>
+    <string name="link">mahada</string>
+    <string name="start">Fara</string>
+    <string name="upload_video_amp_start">Sanya bidiyo</string>
+    <string name="or">------- Ko kuma -----------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">Manna hanyar haɗin bidiyo daga YouTube ko DailyMotion</string>
+    <string name="invite">Gayyata</string>
+    <string name="groups">Ƙungiyoyi</string>
+    <string name="users">Masu amfani</string>
+    <string name="agora_access_token">Maɓallin Shiga na Agora</string>
+    <string name="agora_app_id">Idon App na Agora</string>
+    <string name="upload">Loda</string>
+    <string name="calling">Kira</string>
+    <string name="group_name">Sunan rukuni</string>
+    <string name="done">Anyi</string>
+    <string name="add_members">Ƙara Membobi</string>
+    <string name="delete_group">Share Rukuni</string>
+    <string name="leave_group">Bar Rukuni</string>
+    <string name="menu">Menu</string>
+    <string name="night_mode">Yanayin Dare</string>
+    <string name="translation">Fassara</string>
+    <string name="edit_profile">Shirya Bayanan martaba</string>
+    <string name="invite_friend">Gayyato aboki</string>
+    <string name="notification">Sanarwa</string>
+    <string name="delete_account">Share lissafi</string>
+    <string name="privacy_policy">takardar kebantawa</string>
+    <string name="terms_amp_conditions">Sharuɗɗan</string>
+    <string name="logout">Fita</string>
+    <string name="allow_group_notification">Bada Sanarwa ta Ƙungiya</string>
+    <string name="allow_private_notification">Bada Sanarwa Keɓaɓɓen</string>
+    <string name="privacy_settings">Saitunan Keɓantawa</string>
+    <string name="profile_photo">Hoton Bayanan Bayani</string>
+    <string name="online_status">Matsayin Kan layi</string>
+    <string name="last_seen">Gani na Karshe</string>
+    <string name="about">Game da</string>
+    <string name="who_can_text_you">Wanene zai iya yi muku rubutu</string>
+    <string name="everyone">Kowa</string>
+    <string name="read_receipts">Karanta rasit</string>
+    <string name="hold_to_open_tap_to_send">Rike don buɗewa, Matsa don aikawa</string>
+    <string name="nothing_found">Babu Abinda Aka Samu</string>
+    <string name="image">Hoto</string>
+    <string name="video">Bidiyo</string>
+    <string name="audio">Audio</string>
+    <string name="document">Takardu</string>
+    <string name="location">Wuri</string>
+    <string name="sticker">Sitika</string>
+    <string name="watch_party">Watch Party</string>
+    <string name="contact">Tuntuɓar</string>
+    <string name="gif">GIF</string>
+    <string name="theme">Jigo</string>
+    <string name="meeting">Ganawa</string>
+    <string name="delete">Share</string>
+    <string name="reply">Amsa</string>
+    <string name="forward">Gaba</string>
+    <string name="share">Raba</string>
+    <string name="download">Zazzagewa</string>
+    <string name="copy">Kwafi</string>
+    <string name="theme_changed">Jigo ya canza</string>
+    <string name="meeting_invitation">gayyatar taro</string>
+    <string name="watch_party_invitation">Kalli gayyatar jam\'iyya</string>
+    <string name="online">Kan layi</string>
+    <string name="block">Toshe</string>
+    <string name="report">Rahoton</string>
+    <string name="chat">Taɗi</string>
+
+</resources>

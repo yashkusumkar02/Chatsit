@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">ビデオとのプライベートチャット</string>
+    <string name="one_title">チャット</string>
+    <string name="two_des">グループを作成または参加する</string>
+    <string name="two_title">グループ</string>
+    <string name="three_des">ウォッチパーティー、クラウドミーティング、ストーリーを作成する</string>
+    <string name="three_title">もっと</string>
+    <string name="skip">スキップ</string>
+    <string name="next">次</string>
+    <string name="phone_no">電話番号。</string>
+    <string name="please_enter_your_phone_no">電話番号を入力してください。</string>
+    <string name="generate_otp">OTPを生成する</string>
+    <string name="please_enter_6_digit_otp">6桁のOTPを入力してください</string>
+    <string name="_6_digit_otp">6桁のOTP</string>
+    <string name="verify_otp">OTPを確認する</string>
+    <string name="signup">サインアップ</string>
+    <string name="please_enter_profile_details">プロファイルの詳細を入力してください</string>
+    <string name="name">名前</string>
+    <string name="bio">バイオ</string>
+    <string name="email">Eメール</string>
+    <string name="search">検索…</string>
+    <string name="save">保存する</string>
+    <string name="send_message">メッセージを送る…</string>
+    <string name="link">リンク</string>
+    <string name="start">始める</string>
+    <string name="upload_video_amp_start">ビデオをアップロード</string>
+    <string name="or">- - - - - または - - - - -</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">YouTubeまたはDailyMotionからのビデオリンクを貼り付けます</string>
+    <string name="invite">招待</string>
+    <string name="groups">グループ</string>
+    <string name="users">ユーザー</string>
+    <string name="agora_access_token">Agoraアクセスキー</string>
+    <string name="agora_app_id">あなたのAgoraアプリID</string>
+    <string name="upload">アップロード</string>
+    <string name="calling">呼び出し</string>
+    <string name="group_name">グループ名</string>
+    <string name="done">終わり</string>
+    <string name="add_members">メンバーを追加</string>
+    <string name="delete_group">グループを削除</string>
+    <string name="leave_group">グループを離れる</string>
+    <string name="menu">メニュー</string>
+    <string name="night_mode">ナイトモード</string>
+    <string name="translation">翻訳</string>
+    <string name="edit_profile">プロファイル編集</string>
+    <string name="invite_friend">友人を招待</string>
+    <string name="notification">通知</string>
+    <string name="delete_account">アカウントを削除する</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="terms_amp_conditions">条項</string>
+    <string name="logout">ログアウト</string>
+    <string name="allow_group_notification">グループ通知を許可する</string>
+    <string name="allow_private_notification">プライベート通知を許可する</string>
+    <string name="privacy_settings">プライバシー設定</string>
+    <string name="profile_photo">プロフィール写真</string>
+    <string name="online_status">オンラインステータス</string>
+    <string name="last_seen">最後に見たのは</string>
+    <string name="about">約</string>
+    <string name="who_can_text_you">誰があなたにテキストメッセージを送ることができますか</string>
+    <string name="everyone">みんな</string>
+    <string name="read_receipts">領収書を読んで</string>
+    <string name="hold_to_open_tap_to_send">押し続けると開き、タップして送信します</string>
+    <string name="nothing_found">何も見つかりません</string>
+    <string name="image">画像</string>
+    <string name="video">ビデオ</string>
+    <string name="audio">オーディオ</string>
+    <string name="document">書類</string>
+    <string name="location">位置</string>
+    <string name="sticker">ステッカー</string>
+    <string name="watch_party">ウォッチパーティー</string>
+    <string name="contact">コンタクト</string>
+    <string name="gif">GIF</string>
+    <string name="theme">テーマ</string>
+    <string name="meeting">ミーティング</string>
+    <string name="delete">消去</string>
+    <string name="reply">返事</string>
+    <string name="forward">前方</string>
+    <string name="share">シェア</string>
+    <string name="download">ダウンロード</string>
+    <string name="copy">コピー</string>
+    <string name="theme_changed">テーマが変更されました</string>
+    <string name="meeting_invitation">会議の招待状</string>
+    <string name="watch_party_invitation">パーティーの招待状を見る</string>
+    <string name="online">オンライン</string>
+    <string name="block">ブロック</string>
+    <string name="report">報告する</string>
+    <string name="chat">チャット</string>
+
+</resources>

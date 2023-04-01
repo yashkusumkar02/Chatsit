@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">Trò chuyện riêng tư bằng video</string>
+    <string name="one_title">Trò chuyện</string>
+    <string name="two_des">Tạo hoặc tham gia nhóm</string>
+    <string name="two_title">Các nhóm</string>
+    <string name="three_des">Tạo bữa tiệc xem, cuộc họp trên đám mây và Câu chuyện</string>
+    <string name="three_title">Hơn</string>
+    <string name="skip">Nhảy</string>
+    <string name="next">Kế tiếp</string>
+    <string name="phone_no">Không có điện thoại.</string>
+    <string name="please_enter_your_phone_no">Vui lòng nhập không có điện thoại của bạn.</string>
+    <string name="generate_otp">Tạo OTP</string>
+    <string name="please_enter_6_digit_otp">Vui lòng nhập mã OTP gồm 6 chữ số</string>
+    <string name="_6_digit_otp">6 chữ số OTP</string>
+    <string name="verify_otp">Xác minh OTP</string>
+    <string name="signup">Đăng ký</string>
+    <string name="please_enter_profile_details">Vui lòng nhập chi tiết hồ sơ</string>
+    <string name="name">Tên</string>
+    <string name="bio">Tiểu sử</string>
+    <string name="email">E-mail</string>
+    <string name="search">Tìm kiếm…</string>
+    <string name="save">Cứu</string>
+    <string name="send_message">Gửi tin nhắn…</string>
+    <string name="link">Liên kết</string>
+    <string name="start">Khởi đầu</string>
+    <string name="upload_video_amp_start">Tải video lên</string>
+    <string name="or">---------- Hoặc là ----------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">Dán liên kết video từ YouTube hoặc DailyMotion</string>
+    <string name="invite">Mời</string>
+    <string name="groups">Các nhóm</string>
+    <string name="users">Người dùng</string>
+    <string name="agora_access_token">Khóa truy cập Agora của bạn</string>
+    <string name="agora_app_id">Id ứng dụng Agora của bạn</string>
+    <string name="upload">Tải lên</string>
+    <string name="calling">Kêu gọi</string>
+    <string name="group_name">Tên nhóm</string>
+    <string name="done">Làm xong</string>
+    <string name="add_members">Thêm thành viên</string>
+    <string name="delete_group">Xóa nhóm</string>
+    <string name="leave_group">Rời khỏi nhóm</string>
+    <string name="menu">Thực đơn</string>
+    <string name="night_mode">Chế độ ban đêm</string>
+    <string name="translation">Dịch</string>
+    <string name="edit_profile">Chỉnh sửa hồ sơ</string>
+    <string name="invite_friend">Mời bạn bè</string>
+    <string name="notification">Thông báo</string>
+    <string name="delete_account">Xóa tài khoản</string>
+    <string name="privacy_policy">Chính sách bảo mật</string>
+    <string name="terms_amp_conditions">Điều kiện</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="allow_group_notification">Cho phép thông báo nhóm</string>
+    <string name="allow_private_notification">Cho phép thông báo riêng tư</string>
+    <string name="privacy_settings">Những thiết lập riêng tư</string>
+    <string name="profile_photo">Ảnh hồ sơ</string>
+    <string name="online_status">Trạng thái trực tuyến</string>
+    <string name="last_seen">Nhìn thấy lần cuối</string>
+    <string name="about">Về</string>
+    <string name="who_can_text_you">Ai có thể nhắn tin cho bạn</string>
+    <string name="everyone">Tất cả mọi người</string>
+    <string name="read_receipts">Đọc biên nhận</string>
+    <string name="hold_to_open_tap_to_send">Giữ để mở, Nhấn để gửi</string>
+    <string name="nothing_found">không tìm thấy gì</string>
+    <string name="image">Hình ảnh</string>
+    <string name="video">Băng hình</string>
+    <string name="audio">Âm thanh</string>
+    <string name="document">Tài liệu</string>
+    <string name="location">Địa điểm</string>
+    <string name="sticker">Nhãn dán</string>
+    <string name="watch_party">Xem Đảng</string>
+    <string name="contact">Tiếp xúc</string>
+    <string name="gif">GIF</string>
+    <string name="theme">Chủ đề</string>
+    <string name="meeting">Gặp gỡ</string>
+    <string name="delete">Xóa bỏ</string>
+    <string name="reply">Hồi đáp</string>
+    <string name="forward">Phía trước</string>
+    <string name="share">Chia sẻ</string>
+    <string name="download">Tải xuống</string>
+    <string name="copy">Sao chép</string>
+    <string name="theme_changed">Chủ đề đã thay đổi</string>
+    <string name="meeting_invitation">Lời mời họp</string>
+    <string name="watch_party_invitation">Xem lời mời dự tiệc</string>
+    <string name="online">Trực tuyến</string>
+    <string name="block">Khối</string>
+    <string name="report">Báo cáo</string>
+    <string name="chat">Trò chuyện</string>
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">دردشة خاصة بالفيديو</string>
+    <string name="one_title">محادثة</string>
+    <string name="two_des">إنشاء أو الانضمام إلى مجموعات</string>
+    <string name="two_title">مجموعات</string>
+    <string name="three_des">إنشاء حفلة مشاهدة ، واجتماع سحابي وقصص</string>
+    <string name="three_title">أكثر</string>
+    <string name="skip">يتخطى</string>
+    <string name="next">التالي</string>
+    <string name="phone_no">رقم الهاتف.</string>
+    <string name="please_enter_your_phone_no">الرجاء إدخال رقم هاتفك.</string>
+    <string name="generate_otp">توليد OTP</string>
+    <string name="please_enter_6_digit_otp">الرجاء إدخال كلمة المرور لمرة واحدة (OTP) المكونة من 6 أرقام</string>
+    <string name="_6_digit_otp">6 أرقام OTP</string>
+    <string name="verify_otp">تحقق من OTP</string>
+    <string name="signup">اشتراك</string>
+    <string name="please_enter_profile_details">الرجاء إدخال تفاصيل الملف الشخصي</string>
+    <string name="name">اسم</string>
+    <string name="bio">السيرة الذاتية</string>
+    <string name="email">بريد الالكتروني</string>
+    <string name="search">بحث…</string>
+    <string name="save">يحفظ</string>
+    <string name="send_message">إرسال رسالة …</string>
+    <string name="link">وصلة</string>
+    <string name="start">يبدأ</string>
+    <string name="upload_video_amp_start">رفع فيديو</string>
+    <string name="or">---------- أو ----------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">الصق رابط الفيديو من يوتيوب أو ديلي موشن</string>
+    <string name="invite">يدعو</string>
+    <string name="groups">مجموعات</string>
+    <string name="users">المستخدمون</string>
+    <string name="agora_access_token">مفتاح الوصول إلى Agora الخاص بك</string>
+    <string name="agora_app_id">معرف تطبيق Agora الخاص بك</string>
+    <string name="upload">تحميل</string>
+    <string name="calling">الاتصال</string>
+    <string name="group_name">أسم المجموعة</string>
+    <string name="done">فعله</string>
+    <string name="add_members">إضافة أعضاء</string>
+    <string name="delete_group">حذف المجموعة</string>
+    <string name="leave_group">غادر المجموعة</string>
+    <string name="menu">قائمة الطعام</string>
+    <string name="night_mode">وضع الليل</string>
+    <string name="translation">ترجمة</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="invite_friend">ادعُ صديقًا</string>
+    <string name="notification">تنبيه</string>
+    <string name="delete_account">حذف الحساب</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="terms_amp_conditions">شروط</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="allow_group_notification">السماح بإعلام المجموعة</string>
+    <string name="allow_private_notification">السماح بالإشعارات الخاصة</string>
+    <string name="privacy_settings">إعدادات الخصوصية</string>
+    <string name="profile_photo">صورة الملف الشخصي</string>
+    <string name="online_status">الموجودين</string>
+    <string name="last_seen">اخر ظهور</string>
+    <string name="about">عن</string>
+    <string name="who_can_text_you">من يمكنه إرسال رسالة نصية إليك</string>
+    <string name="everyone">الجميع</string>
+    <string name="read_receipts">قراءة الإيصالات</string>
+    <string name="hold_to_open_tap_to_send">اضغط لفتح ، اضغط للإرسال</string>
+    <string name="nothing_found">لم يتم العثور على شيء</string>
+    <string name="image">صورة</string>
+    <string name="video">فيديو</string>
+    <string name="audio">صوتي</string>
+    <string name="document">وثيقة</string>
+    <string name="location">موقع</string>
+    <string name="sticker">ملصق</string>
+    <string name="watch_party">مشاهدة الحفلة</string>
+    <string name="contact">اتصل</string>
+    <string name="gif">GIF</string>
+    <string name="theme">سمة</string>
+    <string name="meeting">لقاء</string>
+    <string name="delete">حذف</string>
+    <string name="reply">رد</string>
+    <string name="forward">إلى الأمام</string>
+    <string name="share">شارك</string>
+    <string name="download">تحميل</string>
+    <string name="copy">ينسخ</string>
+    <string name="theme_changed">تغير الموضوع</string>
+    <string name="meeting_invitation">دعوة اجتماع</string>
+    <string name="watch_party_invitation">مشاهدة دعوة الحزب</string>
+    <string name="online">متصل</string>
+    <string name="block">منع</string>
+    <string name="report">نقل</string>
+    <string name="chat">محادثة</string>
+
+</resources>

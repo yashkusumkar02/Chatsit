@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">Chat privé avec vidéo</string>
+    <string name="one_title">Discuter</string>
+    <string name="two_des">Créer ou rejoindre des groupes</string>
+    <string name="two_title">Groupes</string>
+    <string name="three_des">Créez une soirée de surveillance, une réunion dans le cloud et des histoires</string>
+    <string name="three_title">Suite</string>
+    <string name="skip">Sauter</string>
+    <string name="next">Suivant</string>
+    <string name="phone_no">Pas de téléphone.</string>
+    <string name="please_enter_your_phone_no">Veuillez entrer votre numéro de téléphone.</string>
+    <string name="generate_otp">Générer un mot de passe</string>
+    <string name="please_enter_6_digit_otp">Veuillez entrer un OTP à 6 chiffres</string>
+    <string name="_6_digit_otp">OTP à 6 chiffres</string>
+    <string name="verify_otp">Vérifier OTP</string>
+    <string name="signup">S\'inscrire</string>
+    <string name="please_enter_profile_details">Veuillez entrer les détails du profil</string>
+    <string name="name">Nom</string>
+    <string name="bio">Bio</string>
+    <string name="email">E-mail</string>
+    <string name="search">Chercher…</string>
+    <string name="save">Sauvegarder</string>
+    <string name="send_message">Envoyer le message…</string>
+    <string name="link">Lien</string>
+    <string name="start">Démarrer</string>
+    <string name="upload_video_amp_start">Télécharger une video</string>
+    <string name="or">---------- Ou ----------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">Coller le lien vidéo de YouTube ou DailyMotion</string>
+    <string name="invite">Inviter</string>
+    <string name="groups">Groupes</string>
+    <string name="users">Utilisateurs</string>
+    <string name="agora_access_token">Votre clé d\'accès Agora</string>
+    <string name="agora_app_id">Votre identifiant d\'application Agora</string>
+    <string name="upload">Télécharger</string>
+    <string name="calling">Appel</string>
+    <string name="group_name">Nom de groupe</string>
+    <string name="done">Fait</string>
+    <string name="add_members">Ajouter des membres</string>
+    <string name="delete_group">Supprimer le groupe</string>
+    <string name="leave_group">Quitter le groupe</string>
+    <string name="menu">Menu</string>
+    <string name="night_mode">Mode nuit</string>
+    <string name="translation">Traduction</string>
+    <string name="edit_profile">Editer le profil</string>
+    <string name="invite_friend">Inviter un ami</string>
+    <string name="notification">Notification</string>
+    <string name="delete_account">Supprimer le compte</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+    <string name="terms_amp_conditions">termes</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="allow_group_notification">Autoriser la notification de groupe</string>
+    <string name="allow_private_notification">Autoriser la notification privée</string>
+    <string name="privacy_settings">Paramètres de confidentialité</string>
+    <string name="profile_photo">Photo de profil</string>
+    <string name="online_status">Statut en ligne</string>
+    <string name="last_seen">Vu pour la dernière fois</string>
+    <string name="about">Sur</string>
+    <string name="who_can_text_you">Qui peut vous envoyer un texto</string>
+    <string name="everyone">Toutes les personnes</string>
+    <string name="read_receipts">Lire les reçus</string>
+    <string name="hold_to_open_tap_to_send">Maintenez pour ouvrir, appuyez pour envoyer</string>
+    <string name="nothing_found">rien n\'a été trouvé</string>
+    <string name="image">Image</string>
+    <string name="video">Vidéo</string>
+    <string name="audio">l\'audio</string>
+    <string name="document">Document</string>
+    <string name="location">Emplacement</string>
+    <string name="sticker">Autocollant</string>
+    <string name="watch_party">Regarder la fête</string>
+    <string name="contact">Contact</string>
+    <string name="gif">GIF</string>
+    <string name="theme">Thème</string>
+    <string name="meeting">Réunion</string>
+    <string name="delete">Supprimer</string>
+    <string name="reply">Répondre</string>
+    <string name="forward">Effronté</string>
+    <string name="share">Partager</string>
+    <string name="download">Télécharger</string>
+    <string name="copy">Copie</string>
+    <string name="theme_changed">Thème modifié</string>
+    <string name="meeting_invitation">Invitation de réunion</string>
+    <string name="watch_party_invitation">Regarder l\'invitation à la fête</string>
+    <string name="online">En ligne</string>
+    <string name="block">Bloquer</string>
+    <string name="report">Reportage</string>
+    <string name="chat">Discuter</string>
+
+</resources>

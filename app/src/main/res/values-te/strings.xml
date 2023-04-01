@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+    <string name="one_des">వీడియోతో ప్రైవేట్ చాట్</string>
+    <string name="one_title">చాట్</string>
+    <string name="two_des">సమూహాలను సృష్టించండి లేదా చేరండి</string>
+    <string name="two_title">గుంపులు</string>
+    <string name="three_des">వీక్షణ పార్టీ, క్లౌడ్ మీటింగ్ మరియు కథనాలను సృష్టించండి</string>
+    <string name="three_title">మరింత</string>
+    <string name="skip">దాటవేయి</string>
+    <string name="next">తరువాత</string>
+    <string name="phone_no">చరవాణి సంఖ్య.</string>
+    <string name="please_enter_your_phone_no">దయచేసి మీ ఫోన్ నంబర్‌ను నమోదు చేయండి.</string>
+    <string name="generate_otp">OTPని రూపొందించండి</string>
+    <string name="please_enter_6_digit_otp">దయచేసి 6 అంకెల OTPని నమోదు చేయండి</string>
+    <string name="_6_digit_otp">6 అంకెల OTP</string>
+    <string name="verify_otp">OTPని ధృవీకరించండి</string>
+    <string name="signup">చేరడం</string>
+    <string name="please_enter_profile_details">దయచేసి ప్రొఫైల్ వివరాలను నమోదు చేయండి</string>
+    <string name="name">పేరు</string>
+    <string name="bio">బయో</string>
+    <string name="email">ఇమెయిల్</string>
+    <string name="search">వెతకండి…</string>
+    <string name="save">సేవ్ చేయండి</string>
+    <string name="send_message">సందేశము పంపుము…</string>
+    <string name="link">లింక్</string>
+    <string name="start">ప్రారంభించండి</string>
+    <string name="upload_video_amp_start">వీడియోను అప్‌లోడ్ చేయండి</string>
+    <string name="or">---------- లేదా ----------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">YouTube లేదా DailyMotion నుండి వీడియో లింక్‌ను అతికించండి</string>
+    <string name="invite">ఆహ్వానించండి</string>
+    <string name="groups">గుంపులు</string>
+    <string name="users">వినియోగదారులు</string>
+    <string name="agora_access_token">మీ అగోరా యాక్సెస్ కీ</string>
+    <string name="agora_app_id">మీ అగోరా యాప్ ఐడి</string>
+    <string name="upload">అప్‌లోడ్ చేయండి</string>
+    <string name="calling">పిలుస్తోంది</string>
+    <string name="group_name">కూటమి పేరు</string>
+    <string name="done">పూర్తి</string>
+    <string name="add_members">సభ్యులను జోడించండి</string>
+    <string name="delete_group">సమూహాన్ని తొలగించండి</string>
+    <string name="leave_group">బృందాన్ని వదులు</string>
+    <string name="menu">మెను</string>
+    <string name="night_mode">రాత్రి మోడ్</string>
+    <string name="translation">అనువాదం</string>
+    <string name="edit_profile">ప్రొఫైల్‌ని సవరించండి</string>
+    <string name="invite_friend">స్నేహితుడిని ఆహ్వానించండి</string>
+    <string name="notification">నోటిఫికేషన్</string>
+    <string name="delete_account">ఖాతాను తొలగించండి</string>
+    <string name="privacy_policy">గోప్యతా విధానం</string>
+    <string name="terms_amp_conditions">నిబంధనలు</string>
+    <string name="logout">లాగ్అవుట్</string>
+    <string name="allow_group_notification">గ్రూప్ నోటిఫికేషన్‌ని అనుమతించండి</string>
+    <string name="allow_private_notification">ప్రైవేట్ నోటిఫికేషన్‌ను అనుమతించండి</string>
+    <string name="privacy_settings">గోప్యతా సెట్టింగ్‌లు</string>
+    <string name="profile_photo">ప్రొఫైల్ ఫోటో</string>
+    <string name="online_status">ఆన్‌లైన్ స్థితి</string>
+    <string name="last_seen">ఆఖరి సారిగా చూచింది</string>
+    <string name="about">గురించి</string>
+    <string name="who_can_text_you">ఎవరు మీకు టెక్స్ట్ చేయవచ్చు</string>
+    <string name="everyone">ప్రతి ఒక్కరూ</string>
+    <string name="read_receipts">రసీదులను చదవండి</string>
+    <string name="hold_to_open_tap_to_send">తెరవడానికి పట్టుకోండి, పంపడానికి నొక్కండి</string>
+    <string name="nothing_found">ఏమీ దొరకలేదు</string>
+    <string name="image">చిత్రం</string>
+    <string name="video">వీడియో</string>
+    <string name="audio">ఆడియో</string>
+    <string name="document">పత్రం</string>
+    <string name="location">స్థానం</string>
+    <string name="sticker">స్టికర్</string>
+    <string name="watch_party">పార్టీని చూడండి</string>
+    <string name="contact">సంప్రదించండి</string>
+    <string name="gif">GIF</string>
+    <string name="theme">థీమ్</string>
+    <string name="meeting">సమావేశం</string>
+    <string name="delete">తొలగించు</string>
+    <string name="reply">ప్రత్యుత్తరం ఇవ్వండి</string>
+    <string name="forward">ముందుకు</string>
+    <string name="share">షేర్ చేయండి</string>
+    <string name="download">డౌన్‌లోడ్ చేయండి</string>
+    <string name="copy">కాపీ చేయండి</string>
+    <string name="theme_changed">థీమ్ మార్చబడింది</string>
+    <string name="meeting_invitation">సమావేశ ఆహ్వానం</string>
+    <string name="watch_party_invitation">పార్టీ ఆహ్వానాన్ని చూడండి</string>
+    <string name="online">ఆన్‌లైన్</string>
+    <string name="block">నిరోధించు</string>
+    <string name="report">నివేదించండి</string>
+    <string name="chat">చాట్</string>
+
+</resources>

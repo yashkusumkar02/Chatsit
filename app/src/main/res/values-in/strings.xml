@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">Gumzo la faragha na video</string>
+    <string name="one_title">Soga</string>
+    <string name="two_des">Unda au ujiunge na vikundi</string>
+    <string name="two_title">Vikundi</string>
+    <string name="three_des">Unda sherehe ya saa, mkutano wa wingu na Hadithi</string>
+    <string name="three_title">Zaidi</string>
+    <string name="skip">Ruka</string>
+    <string name="next">Inayofuata</string>
+    <string name="phone_no">Namba ya simu.</string>
+    <string name="please_enter_your_phone_no">Tafadhali weka nambari yako ya simu.</string>
+    <string name="generate_otp">Tengeneza OTP</string>
+    <string name="please_enter_6_digit_otp">Tafadhali weka OTP yenye tarakimu 6</string>
+    <string name="_6_digit_otp">6 Dijiti OTP</string>
+    <string name="verify_otp">Thibitisha OTP</string>
+    <string name="signup">Jisajili</string>
+    <string name="please_enter_profile_details">Tafadhali weka maelezo ya wasifu</string>
+    <string name="name">Jina</string>
+    <string name="bio">Wasifu</string>
+    <string name="email">Barua pepe</string>
+    <string name="search">Tafuta…</string>
+    <string name="save">Hifadhi</string>
+    <string name="send_message">Tuma ujumbe…</string>
+    <string name="link">Kiungo</string>
+    <string name="start">Anza</string>
+    <string name="upload_video_amp_start">Pakia video</string>
+    <string name="or">---------- Au ----------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">Bandika kiungo cha video kutoka YouTube au DailyMotion</string>
+    <string name="invite">Alika</string>
+    <string name="groups">Vikundi</string>
+    <string name="users">Watumiaji</string>
+    <string name="agora_access_token">Ufunguo wako wa Ufikiaji wa Agora</string>
+    <string name="agora_app_id">Kitambulisho chako cha Programu ya Agora</string>
+    <string name="upload">Pakia</string>
+    <string name="calling">Kupiga simu</string>
+    <string name="group_name">Jina la kikundi</string>
+    <string name="done">Imekamilika</string>
+    <string name="add_members">Ongeza Wanachama</string>
+    <string name="delete_group">Futa Kikundi</string>
+    <string name="leave_group">Ondoka kwenye Kikundi</string>
+    <string name="menu">Menyu</string>
+    <string name="night_mode">Hali ya Usiku</string>
+    <string name="translation">Tafsiri</string>
+    <string name="edit_profile">Badilisha Wasifu</string>
+    <string name="invite_friend">Alika rafiki</string>
+    <string name="notification">Taarifa</string>
+    <string name="delete_account">Futa akaunti</string>
+    <string name="privacy_policy">Sera ya Faragha</string>
+    <string name="terms_amp_conditions">Masharti</string>
+    <string name="logout">Ondoka</string>
+    <string name="allow_group_notification">Ruhusu Arifa ya Kikundi</string>
+    <string name="allow_private_notification">Ruhusu Arifa ya Kibinafsi</string>
+    <string name="privacy_settings">Mipangilio ya Faragha</string>
+    <string name="profile_photo">Picha ya Wasifu</string>
+    <string name="online_status">Hali ya Mtandaoni</string>
+    <string name="last_seen">Mara ya mwisho kuonekana</string>
+    <string name="about">Kuhusu</string>
+    <string name="who_can_text_you">Nani anaweza kukutumia ujumbe</string>
+    <string name="everyone">Kila mtu</string>
+    <string name="read_receipts">Kusoma risiti</string>
+    <string name="hold_to_open_tap_to_send">Shikilia ili kufungua, Gusa ili kutuma</string>
+    <string name="nothing_found">Hakuna Kilichopatikana</string>
+    <string name="image">Picha</string>
+    <string name="video">Video</string>
+    <string name="audio">Sauti</string>
+    <string name="document">Hati</string>
+    <string name="location">Mahali</string>
+    <string name="sticker">Kibandiko</string>
+    <string name="watch_party">Tazama Sherehe</string>
+    <string name="contact">Wasiliana</string>
+    <string name="gif">GIF</string>
+    <string name="theme">Mandhari</string>
+    <string name="meeting">Mkutano</string>
+    <string name="delete">Futa</string>
+    <string name="reply">Jibu</string>
+    <string name="forward">Mbele</string>
+    <string name="share">Shiriki</string>
+    <string name="download">Pakua</string>
+    <string name="copy">Nakili</string>
+    <string name="theme_changed">Mandhari yamebadilika</string>
+    <string name="meeting_invitation">Mwaliko wa mkutano</string>
+    <string name="watch_party_invitation">Tazama mwaliko wa sherehe</string>
+    <string name="online">Mtandaoni</string>
+    <string name="block">Zuia</string>
+    <string name="report">Ripoti</string>
+    <string name="chat">Soga</string>
+
+</resources>

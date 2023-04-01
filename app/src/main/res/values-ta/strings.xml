@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">வீடியோவுடன் தனிப்பட்ட அரட்டை</string>
+    <string name="one_title">அரட்டை</string>
+    <string name="two_des">குழுக்களை உருவாக்கவும் அல்லது சேரவும்</string>
+    <string name="two_title">குழுக்கள்</string>
+    <string name="three_des">வாட்ச் பார்ட்டி, கிளவுட் மீட்டிங் மற்றும் கதைகளை உருவாக்கவும்</string>
+    <string name="three_title">மேலும்</string>
+    <string name="skip">தவிர்க்கவும்</string>
+    <string name="next">அடுத்தது</string>
+    <string name="phone_no">தொலைபேசி எண்.</string>
+    <string name="please_enter_your_phone_no">உங்கள் தொலைபேசி எண்ணை உள்ளிடவும்.</string>
+    <string name="generate_otp">OTP ஐ உருவாக்கவும்</string>
+    <string name="please_enter_6_digit_otp">6 இலக்க OTP ஐ உள்ளிடவும்</string>
+    <string name="_6_digit_otp">6 இலக்க OTP</string>
+    <string name="verify_otp">OTPயைச் சரிபார்க்கவும்</string>
+    <string name="signup">பதிவு செய்யவும்</string>
+    <string name="please_enter_profile_details">சுயவிவர விவரங்களை உள்ளிடவும்</string>
+    <string name="name">பெயர்</string>
+    <string name="bio">உயிர்</string>
+    <string name="email">மின்னஞ்சல்</string>
+    <string name="search">தேடு…</string>
+    <string name="save">சேமிக்கவும்</string>
+    <string name="send_message">செய்தி அனுப்ப…</string>
+    <string name="link">இணைப்பு</string>
+    <string name="start">தொடங்கு</string>
+    <string name="upload_video_amp_start">வீடியோவைப் பதிவேற்றவும்</string>
+    <string name="or">---------- அல்லது ----------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">YouTube அல்லது DailyMotion இலிருந்து வீடியோ இணைப்பை ஒட்டவும்</string>
+    <string name="invite">அழைக்கவும்</string>
+    <string name="groups">குழுக்கள்</string>
+    <string name="users">பயனர்கள்</string>
+    <string name="agora_access_token">உங்கள் அகோர அணுகல் விசை</string>
+    <string name="agora_app_id">உங்கள் அகோர ஆப் ஐடி</string>
+    <string name="upload">பதிவேற்றவும்</string>
+    <string name="calling">அழைப்பு</string>
+    <string name="group_name">குழு பெயர்</string>
+    <string name="done">முடிந்தது</string>
+    <string name="add_members">உறுப்பினர்களைச் சேர்க்கவும்</string>
+    <string name="delete_group">குழுவை நீக்கு</string>
+    <string name="leave_group">குழுவிலிருந்து விலகு</string>
+    <string name="menu">பட்டியல்</string>
+    <string name="night_mode">இரவு நிலை</string>
+    <string name="translation">மொழிபெயர்ப்பு</string>
+    <string name="edit_profile">சுயவிவரத்தைத் திருத்து</string>
+    <string name="invite_friend">நண்பரை அழைக்கவும்</string>
+    <string name="notification">அறிவிப்பு</string>
+    <string name="delete_account">கணக்கை நீக்குக</string>
+    <string name="privacy_policy">தனியுரிமைக் கொள்கை</string>
+    <string name="terms_amp_conditions">விதிமுறை</string>
+    <string name="logout">வெளியேறு</string>
+    <string name="allow_group_notification">குழு அறிவிப்பை அனுமதிக்கவும்</string>
+    <string name="allow_private_notification">தனிப்பட்ட அறிவிப்பை அனுமதிக்கவும்</string>
+    <string name="privacy_settings">தனியுரிமை அமைப்புகள்</string>
+    <string name="profile_photo">சுயவிவரப் புகைப்படம்</string>
+    <string name="online_status">ஆன்லைன் நிலை</string>
+    <string name="last_seen">இறுதியாக பார்த்தது</string>
+    <string name="about">பற்றி</string>
+    <string name="who_can_text_you">யார் உங்களுக்கு குறுஞ்செய்தி அனுப்பலாம்</string>
+    <string name="everyone">அனைவரும்</string>
+    <string name="read_receipts">ரசீதுகளைப் படிக்கவும்</string>
+    <string name="hold_to_open_tap_to_send">திறக்க அழுத்திப் பிடிக்கவும், அனுப்ப தட்டவும்</string>
+    <string name="nothing_found">எதுவும் கிடைக்கவில்லை</string>
+    <string name="image">படம்</string>
+    <string name="video">காணொளி</string>
+    <string name="audio">ஆடியோ</string>
+    <string name="document">ஆவணம்</string>
+    <string name="location">இடம்</string>
+    <string name="sticker">ஓட்டி</string>
+    <string name="watch_party">பார்ட்டி பார்ட்டி</string>
+    <string name="contact">தொடர்பு கொள்ளவும்</string>
+    <string name="gif">GIF</string>
+    <string name="theme">தீம்</string>
+    <string name="meeting">சந்தித்தல்</string>
+    <string name="delete">அழி</string>
+    <string name="reply">பதில்</string>
+    <string name="forward">முன்னோக்கி</string>
+    <string name="share">பகிர்</string>
+    <string name="download">பதிவிறக்க Tamil</string>
+    <string name="copy">நகலெடுக்கவும்</string>
+    <string name="theme_changed">தீம் மாற்றப்பட்டது</string>
+    <string name="meeting_invitation">சந்திப்பு அழைப்பிதழ்</string>
+    <string name="watch_party_invitation">விருந்து அழைப்பிதழைப் பாருங்கள்</string>
+    <string name="online">நிகழ்நிலை</string>
+    <string name="block">தடு</string>
+    <string name="report">அறிக்கை</string>
+    <string name="chat">அரட்டை</string>
+
+</resources>

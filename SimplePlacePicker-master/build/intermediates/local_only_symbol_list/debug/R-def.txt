@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_pin
+drawable small_button_shape
+id ic_pin
+id map_fragment
+id progress_bar
+id ripple_bg
+id searchBar
+id small_pin
+id submit_location_button
+id tv_display_marker_location
+layout activity_map
+layout map_content_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string address_found
+string app_name
+string confirm_location
+string failed_select_location
+string no_address_found
+string not_support_area
+string search_place
+string service_not_available
+style AppTheme
+style AppTheme.NoActionBar

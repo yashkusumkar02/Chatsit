@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SimplePlacePicker</string>
+
+    <string name="service_not_available" translatable="false">Service not available ..check network connection</string>
+    <string name="no_address_found" translatable="false">No address found</string>
+    <string name="address_found" translatable="false">address found</string>
+    <string name="not_support_area" translatable="false">This area is not supported yet</string>
+    <string name="confirm_location" translatable="false">Confirm Location</string>
+    <string name="search_place" translatable="false">Search a place</string>
+    <string name="failed_select_location" translatable="false">failed to select location please try again</string>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">视频私聊</string>
+    <string name="one_title">聊天</string>
+    <string name="two_des">创建或加入群组</string>
+    <string name="two_title">团体</string>
+    <string name="three_des">创建观看派对、云会议和故事</string>
+    <string name="three_title">更多的</string>
+    <string name="skip">跳过</string>
+    <string name="next">下一个</string>
+    <string name="phone_no">电话号码。</string>
+    <string name="please_enter_your_phone_no">请输入您的电话号码。</string>
+    <string name="generate_otp">生成一次性密码</string>
+    <string name="please_enter_6_digit_otp">请输入6位OTP</string>
+    <string name="_6_digit_otp">6 位一次性密码</string>
+    <string name="verify_otp">验证一次性密码</string>
+    <string name="signup">报名</string>
+    <string name="please_enter_profile_details">请输入个人资料详情</string>
+    <string name="name">名称</string>
+    <string name="bio">生物</string>
+    <string name="email">电子邮件</string>
+    <string name="search">搜索…</string>
+    <string name="save">保存</string>
+    <string name="send_message">发信息…</string>
+    <string name="link">关联</string>
+    <string name="start">开始</string>
+    <string name="upload_video_amp_start">上传视频</string>
+    <string name="or">- - - - - 或者 - - - - -</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">粘贴来自 YouTube 或 DailyMotion 的视频链接</string>
+    <string name="invite">邀请</string>
+    <string name="groups">团体</string>
+    <string name="users">用户</string>
+    <string name="agora_access_token">您的 Agora 访问密钥</string>
+    <string name="agora_app_id">您的 Agora 应用 ID</string>
+    <string name="upload">上传</string>
+    <string name="calling">打电话</string>
+    <string name="group_name">团队名字</string>
+    <string name="done">完毕</string>
+    <string name="add_members">添加成员</string>
+    <string name="delete_group">删除组</string>
+    <string name="leave_group">离开组</string>
+    <string name="menu">菜单</string>
+    <string name="night_mode">夜间模式</string>
+    <string name="translation">翻译</string>
+    <string name="edit_profile">编辑个人资料</string>
+    <string name="invite_friend">邀请朋友</string>
+    <string name="notification">通知</string>
+    <string name="delete_account">删除帐户</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="terms_amp_conditions">条款</string>
+    <string name="logout">登出</string>
+    <string name="allow_group_notification">允许群组通知</string>
+    <string name="allow_private_notification">允许私人通知</string>
+    <string name="privacy_settings">隐私设置</string>
+    <string name="profile_photo">头像照片</string>
+    <string name="online_status">在线状态</string>
+    <string name="last_seen">最后一次露面</string>
+    <string name="about">关于</string>
+    <string name="who_can_text_you">谁可以给你发短信</string>
+    <string name="everyone">每个人</string>
+    <string name="read_receipts">阅读回执</string>
+    <string name="hold_to_open_tap_to_send">按住打开，点击发送</string>
+    <string name="nothing_found">什么都没找到</string>
+    <string name="image">图片</string>
+    <string name="video">视频</string>
+    <string name="audio">声音的</string>
+    <string name="document">文档</string>
+    <string name="location">地点</string>
+    <string name="sticker">贴纸</string>
+    <string name="watch_party">观看派对</string>
+    <string name="contact">接触</string>
+    <string name="gif">动图</string>
+    <string name="theme">主题</string>
+    <string name="meeting">会议</string>
+    <string name="delete">删除</string>
+    <string name="reply">回复</string>
+    <string name="forward">向前</string>
+    <string name="share">分享</string>
+    <string name="download">下载</string>
+    <string name="copy">复制</string>
+    <string name="theme_changed">主题已更改</string>
+    <string name="meeting_invitation">会议邀请</string>
+    <string name="watch_party_invitation">观看派对邀请</string>
+    <string name="online">在线的</string>
+    <string name="block">堵塞</string>
+    <string name="report">报告</string>
+    <string name="chat">聊天</string>
+
+</resources>

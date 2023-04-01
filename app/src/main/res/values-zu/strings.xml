@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">Ingxoxo eyimfihlo nevidiyo</string>
+    <string name="one_title">Xoxa</string>
+    <string name="two_des">Dala noma ujoyine amaqembu</string>
+    <string name="two_title">Amaqembu</string>
+    <string name="three_des">Dala iphathi yokubuka, umhlangano wamafu kanye Nezindaba</string>
+    <string name="three_title">Okuningi</string>
+    <string name="skip">Yeqa</string>
+    <string name="next">Olandelayo</string>
+    <string name="phone_no">Inombolo yocingo.</string>
+    <string name="please_enter_your_phone_no">Sicela ufake inombolo yocingo lwakho.</string>
+    <string name="generate_otp">Khiqiza i-OTP</string>
+    <string name="please_enter_6_digit_otp">Sicela ufake i-OTP enamadijithi angu-6</string>
+    <string name="_6_digit_otp">6 Idijithi ye-OTP</string>
+    <string name="verify_otp">Qinisekisa i-OTP</string>
+    <string name="signup">Bhalisela</string>
+    <string name="please_enter_profile_details">Sicela ufake imininingwane yephrofayili</string>
+    <string name="name">Igama</string>
+    <string name="bio">I-Bio</string>
+    <string name="email">I-imeyili</string>
+    <string name="search">Sesha…</string>
+    <string name="save">Londoloza</string>
+    <string name="send_message">Thumela umlayezo…</string>
+    <string name="link">Isixhumanisi</string>
+    <string name="start">Qala</string>
+    <string name="upload_video_amp_start">Layisha ividiyo</string>
+    <string name="or">---------- Noma ----------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">Namathisela isixhumanisi sevidiyo esivela ku-YouTube noma i-DailyMotion</string>
+    <string name="invite">Mema</string>
+    <string name="groups">Amaqembu</string>
+    <string name="users">Abasebenzisi</string>
+    <string name="agora_access_token">Ukhiye wakho wokufinyelela we-Agora</string>
+    <string name="agora_app_id">I-Id yakho yohlelo lokusebenza lwe-Agora</string>
+    <string name="upload">Layisha</string>
+    <string name="calling">Iyafona</string>
+    <string name="group_name">Igama leqembu</string>
+    <string name="done">Kwenziwe</string>
+    <string name="add_members">Engeza Amalungu</string>
+    <string name="delete_group">Susa Iqembu</string>
+    <string name="leave_group">Shiya Iqembu</string>
+    <string name="menu">Imenyu</string>
+    <string name="night_mode">Imodi Yasebusuku</string>
+    <string name="translation">Ukuhumusha</string>
+    <string name="edit_profile">Hlela iphrofayela</string>
+    <string name="invite_friend">Mema umngane</string>
+    <string name="notification">Isaziso</string>
+    <string name="delete_account">Susa i-akhawunti</string>
+    <string name="privacy_policy">Inqubomgomo yobumfihlo</string>
+    <string name="terms_amp_conditions">Imigomo</string>
+    <string name="logout">Phuma</string>
+    <string name="allow_group_notification">Vumela Isaziso Seqembu</string>
+    <string name="allow_private_notification">Vumela Isaziso Esiyimfihlo</string>
+    <string name="privacy_settings">Izilungiselelo Zobumfihlo</string>
+    <string name="profile_photo">Isithombe Sephrofayela</string>
+    <string name="online_status">Isimo Se-inthanethi</string>
+    <string name="last_seen">Ugcine Ukubonwa</string>
+    <string name="about">Mayelana</string>
+    <string name="who_can_text_you">Ubani ongakuthumela umbhalo</string>
+    <string name="everyone">Wonke umuntu</string>
+    <string name="read_receipts">Funda amarisidi</string>
+    <string name="hold_to_open_tap_to_send">Bamba ukuze uvule, Thinta ukuze uthumele</string>
+    <string name="nothing_found">Akukho Okutholakele</string>
+    <string name="image">Isithombe</string>
+    <string name="video">Ividiyo</string>
+    <string name="audio">Okulalelwayo</string>
+    <string name="document">Idokhumenti</string>
+    <string name="location">Indawo</string>
+    <string name="sticker">Isitika</string>
+    <string name="watch_party">Buka Iphathi</string>
+    <string name="contact">Oxhumana naye</string>
+    <string name="gif">I-GIF</string>
+    <string name="theme">Itimu</string>
+    <string name="meeting">Umhlangano</string>
+    <string name="delete">Susa</string>
+    <string name="reply">Phendula</string>
+    <string name="forward">Phambili</string>
+    <string name="share">Yabelana</string>
+    <string name="download">Landa</string>
+    <string name="copy">Kopisha</string>
+    <string name="theme_changed">Itimu ishintshile</string>
+    <string name="meeting_invitation">Isimemo somhlangano</string>
+    <string name="watch_party_invitation">Buka isimemo sephathi</string>
+    <string name="online">Ku-inthanethi</string>
+    <string name="block">Vimba</string>
+    <string name="report">Bika</string>
+    <string name="chat">Xoxa</string>
+
+</resources>

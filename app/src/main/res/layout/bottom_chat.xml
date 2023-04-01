@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:layout_height="match_parent"
+    tools:targetApi="lollipop">
+
+    <LinearLayout
+        android:backgroundTint="?attr/layoutcolor"
+        android:background="@drawable/fragment_bg"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:src="@drawable/ic_image"
+                    android:padding="20dp"
+                    android:id="@+id/image"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#FFADAD"
+                    android:layout_margin="8dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="#fff" />
+
+                <TextView
+                    android:text="@string/image"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#FFD6A5"
+                    android:src="@drawable/ic_video"
+                    android:padding="20dp"
+                    android:id="@+id/video"
+                    android:layout_margin="8dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="#fff" />
+
+                <TextView
+                    android:text="@string/video"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#A2D2FF"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/ic_mic"
+                    android:padding="20dp"
+                    android:id="@+id/mic"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="#fff" />
+
+                <TextView
+                    android:text="@string/audio"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:src="@drawable/ic_doc"
+                    android:padding="20dp"
+                    android:id="@+id/document"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#BAF8AD"
+                    android:layout_margin="8dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="#fff" />
+
+                <TextView
+                    android:text="@string/document"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:src="@drawable/ic_map"
+                    android:padding="20dp"
+                    android:id="@+id/location"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#9BF6FF"
+                    android:layout_margin="8dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="#fff" />
+
+                <TextView
+                    android:text="@string/location"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:src="@drawable/ic_sticker"
+                    android:padding="20dp"
+                    android:id="@+id/sticker"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#FFC8DD"
+                    android:layout_margin="8dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="#fff" />
+
+                <TextView
+                    android:text="@string/sticker"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:src="@drawable/ic_popcorn"
+                    android:padding="20dp"
+                    android:id="@+id/party"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#BDB2FF"
+                    android:layout_margin="8dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="#fff" />
+
+                <TextView
+                    android:text="@string/watch_party"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#FFC6FF"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/ic_contact"
+                    android:padding="20dp"
+                    android:id="@+id/contact"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="#fff" />
+
+                <TextView
+                    android:text="@string/contact"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+
+                <ImageView
+                    android:src="@drawable/ic_gif"
+                    android:padding="20dp"
+                    android:id="@+id/gif"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#CDB4DB"
+                    android:layout_margin="8dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="#fff" />
+
+                <TextView
+                    android:text="@string/gif"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+
+                <ImageView
+                    android:src="@drawable/ic_theme"
+                    android:padding="20dp"
+                    android:id="@+id/theme"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#FFAFCC"
+                    android:layout_margin="8dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="#fff" />
+
+                <TextView
+                    android:text="@string/theme"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:src="@drawable/ic_zoom"
+                    android:padding="20dp"
+                    android:id="@+id/zoom"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#BDE0FE"
+                    android:layout_margin="8dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="#fff" />
+
+                <TextView
+                    android:text="@string/meeting"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

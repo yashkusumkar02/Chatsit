@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Stipop</string>
+    <string name="bottom_alert_title" translatable="false">Hide this sticker pack?</string>
+    <string name="bottom_alert_contents" translatable="false">Do you want to hide the sticker pack? You can always re-download hidden stickers later.</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="hide" translatable="false">Hide</string>
+    <string name="downloaded" translatable="false">DOWNLOADED</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="search">Search..</string>
+    <string name="all_stickers" translatable="false">All Stickers</string>
+    <string name="my_sticker" translatable="false">My Sticker</string>
+    <string name="popular_stickers" translatable="false">Popular Stickers</string>
+    <string name="recommended_tag" translatable="false">Recommended tag</string>
+    <string name="view_hidden_stickers" translatable="false">View Hidden Stickers</string>
+    <string name="view_active_stickers" translatable="false">View Active Stickers</string>
+    <string name="no_result" translatable="false">No results</string>
+    <string name="trending" translatable="false">Trending</string>
+    <string name="stickers" translatable="false">Stickers</string>
+    <string name="recent_search" translatable="false">Recent Search</string>
+    <string name="clear" translatable="false">Clear</string>
+    <string name="download_done" translatable="false">다운로드 완료!</string>
+    <string name="can_not_download" translatable="false">"Can not download!!!"</string>
+</resources>

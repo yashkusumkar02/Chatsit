@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    tools:ignore="Overdraw">
+
+    <LinearLayout
+        android:background="?attr/layoutcolor"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/back"
+            android:padding="5dp"
+            android:background="@drawable/circle"
+            android:backgroundTint="?attr/backgroundcolor"
+            android:src="@drawable/ic_back"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:tint="#596C84"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:background="@drawable/btn_round"
+            android:backgroundTint="?attr/backgroundcolor"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:padding="9dp"
+                android:src="@drawable/ic_search"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                app:tint="#596C84"
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:textColor="?attr/textcolor"
+                android:layout_gravity="center"
+                android:hint="@string/search"
+                android:id="@+id/editText"
+                android:background="@null"
+                android:textSize="16sp"
+                android:fontFamily="@font/bold_roboto"
+                android:textColorHint="?attr/texttwocolor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="Autofill,TextFields" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        app:layout_constraintTop_toTopOf="parent"
+        app:trackColor="#4003B3FD"
+        app:indicatorColor="#297AEE"
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:trackThickness="2dp"
+        app:trackCornerRadius="2dp"
+        android:indeterminate="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="?attr/texttwocolor"
+            android:alpha="0.5"
+            android:visibility="gone"
+            android:id="@+id/nothing"
+            android:fontFamily="@font/bold_roboto"
+            android:text="@string/nothing_found"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           tools:ignore="ContentDescription" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+    </RelativeLayout>
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_ad_unit_id" />
+
+</LinearLayout>

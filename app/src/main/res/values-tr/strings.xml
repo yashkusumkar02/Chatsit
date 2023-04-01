@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box" tools:ignore="Typos">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">Görüntülü özel sohbet</string>
+    <string name="one_title">Sohbet etmek</string>
+    <string name="two_des">Gruplar oluşturun veya katılın</string>
+    <string name="two_title">Gruplar</string>
+    <string name="three_des">İzleme partisi, bulut toplantısı ve Hikayeler oluşturun</string>
+    <string name="three_title">Daha</string>
+    <string name="skip">Atlamak</string>
+    <string name="next">Sonraki</string>
+    <string name="phone_no">Telefon yok.</string>
+    <string name="please_enter_your_phone_no">Lütfen telefon numaranızı giriniz.</string>
+    <string name="generate_otp">OTP oluştur</string>
+    <string name="please_enter_6_digit_otp">Lütfen 6 haneli OTP girin</string>
+    <string name="_6_digit_otp">6 Haneli OTP</string>
+    <string name="verify_otp">OTP\'yi doğrulayın</string>
+    <string name="signup">Üye olmak</string>
+    <string name="please_enter_profile_details">Lütfen profil ayrıntılarını girin</string>
+    <string name="name">İsim</string>
+    <string name="bio">biyo</string>
+    <string name="email">E-posta</string>
+    <string name="search">Aramak…</string>
+    <string name="save">Kayıt etmek</string>
+    <string name="send_message">Mesaj gönder…</string>
+    <string name="link">Bağlantı</string>
+    <string name="start">Başlangıç</string>
+    <string name="upload_video_amp_start">Video yükle</string>
+    <string name="or">---------- Veya ----------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">YouTube veya DailyMotion\'dan video bağlantısını yapıştırın</string>
+    <string name="invite">Davet et</string>
+    <string name="groups">Gruplar</string>
+    <string name="users">Kullanıcılar</string>
+    <string name="agora_access_token">Agora Erişim Anahtarınız</string>
+    <string name="agora_app_id">Agora Uygulama Kimliğiniz</string>
+    <string name="upload">Yüklemek</string>
+    <string name="calling">arama</string>
+    <string name="group_name">Grup ismi</string>
+    <string name="done">Tamamlandı</string>
+    <string name="add_members">Üye ekle</string>
+    <string name="delete_group">Grubu Sil</string>
+    <string name="leave_group">Gruptan ayrıl</string>
+    <string name="menu">Menü</string>
+    <string name="night_mode">Gece modu</string>
+    <string name="translation">Tercüme</string>
+    <string name="edit_profile">Profili Düzenle</string>
+    <string name="invite_friend">Arkadaş davet etmek</string>
+    <string name="notification">Bildirim</string>
+    <string name="delete_account">Hesabı sil</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="terms_amp_conditions">şartlar</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="allow_group_notification">Grup Bildirimine İzin Ver</string>
+    <string name="allow_private_notification">Özel Bildirime İzin Ver</string>
+    <string name="privacy_settings">Gizlilik ayarları</string>
+    <string name="profile_photo">Profil resmi</string>
+    <string name="online_status">Çevrimiçi durum</string>
+    <string name="last_seen">Son görülen</string>
+    <string name="about">Hakkında</string>
+    <string name="who_can_text_you">sana kim mesaj atabilir</string>
+    <string name="everyone">Herkes</string>
+    <string name="read_receipts">Makbuzları okuyun</string>
+    <string name="hold_to_open_tap_to_send">Açmak için basılı tutun, Göndermek için dokunun</string>
+    <string name="nothing_found">Hiçbirşey Bulunamadı</string>
+    <string name="image">resim</string>
+    <string name="video">Video</string>
+    <string name="audio">Ses</string>
+    <string name="document">belge</string>
+    <string name="location">Konum</string>
+    <string name="sticker">Etiket</string>
+    <string name="watch_party">Parti izle</string>
+    <string name="contact">Temas</string>
+    <string name="gif">GIF</string>
+    <string name="theme">Tema</string>
+    <string name="meeting">Toplantı</string>
+    <string name="delete">Silmek</string>
+    <string name="reply">Cevap vermek</string>
+    <string name="forward">İleri</string>
+    <string name="share">Paylaş</string>
+    <string name="download">İndirmek</string>
+    <string name="copy">kopyala</string>
+    <string name="theme_changed">Tema değişti</string>
+    <string name="meeting_invitation">Toplantı daveti</string>
+    <string name="watch_party_invitation">Parti davetiyesini izle</string>
+    <string name="online">İnternet üzerinden</string>
+    <string name="block">Engellemek</string>
+    <string name="report">Bildiri</string>
+    <string name="chat">Sohbet etmek</string>
+
+
+</resources>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:layout_height="match_parent"
+    tools:targetApi="lollipop">
+
+    <LinearLayout
+        android:backgroundTint="?attr/layoutcolor"
+        android:background="@drawable/fragment_bg"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:src="@drawable/ic_trash"
+                    android:padding="18dp"
+                    android:id="@+id/delete"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#FFADAD"
+                    android:layout_margin="8dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="#fff" />
+
+                <TextView
+                    android:text="@string/delete"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#FFD6A5"
+                    android:src="@drawable/ic_reply"
+                    android:padding="14dp"
+                    android:id="@+id/reply"
+                    android:layout_margin="8dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="#fff" />
+
+                <TextView
+                    android:text="@string/reply"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#A2D2FF"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/ic_forward"
+                    android:padding="20dp"
+                    android:id="@+id/mic"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="#fff" />
+
+                <TextView
+                    android:text="@string/forward"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:src="@drawable/ic_share"
+                    android:padding="20dp"
+                    android:id="@+id/share"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#9BF6FF"
+                    android:layout_margin="8dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="#fff" />
+
+                <TextView
+                    android:text="@string/share"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/dy"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:src="@drawable/ic_download"
+                    android:padding="18dp"
+                    android:id="@+id/download"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#A0C4FF"
+                    android:layout_margin="8dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="#fff" />
+
+                <TextView
+                    android:text="@string/download"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:src="@drawable/ic_doc"
+                    android:padding="20dp"
+                    android:id="@+id/copy"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#BAF8AD"
+                    android:layout_margin="8dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:ignore="ContentDescription"
+                    app:tint="#fff" />
+
+                <TextView
+                    android:text="@string/copy"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

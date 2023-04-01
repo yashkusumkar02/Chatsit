@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/layoutcolor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/back"
+            android:padding="5dp"
+            android:background="@drawable/circle"
+            android:backgroundTint="?attr/backgroundcolor"
+            android:src="@drawable/ic_back"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:tint="#596C84"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:text="Translation"
+            android:gravity="center"
+            android:fontFamily="@font/black"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginEnd="47dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/english"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_united_kingdom"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="English"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hindi"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_india"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="India"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/arabic"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_saudi_arabia"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Arabic"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/german"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_germany"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="German"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/spain"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_spain"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Spain"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/france"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_france"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="France"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/italy"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_italy"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Italy"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/japan"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_japan"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Japanese"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/china"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_china"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Chinese"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/russia"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_russian_federation"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Russia"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/portugal"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_portugal"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Portugal"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/urdu"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_pakistan"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Urdu"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/turkish"
+                android:layout_marginEnd="12dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginStart="12dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="32dp"
+                    android:src="@drawable/flag_turkey"
+                    android:layout_height="32dp"/>
+
+                <TextView
+                    android:text="Turkish"
+                    android:gravity="center_vertical"
+                    android:fontFamily="@font/bold_roboto"
+                    android:textColor="?attr/textcolor"
+                    android:textSize="18sp"
+                    android:layout_marginStart="8dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/telgu"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_india"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Telgu"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tamil"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_india"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Tamil"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/marathi"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_india"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Marathi"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/amharic"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_nigeria"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Amharic"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/oromo"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_nigeria"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Oromo"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/igbo"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_niger"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Igbo"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/yoruba"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_niger"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Yoruba"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/zulu"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_south_africa"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Zulu"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_south_africa"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Shona"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/dutch"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_netherlands"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Dutch"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bengali"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_bangladesh"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Bengali"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hausa"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="TooManyViews">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_niger"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Hausa"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/swahili"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_bangladesh"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Swahili"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vietnamese"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginBottom="28dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="32dp"
+                        android:src="@drawable/flag_vietnam"
+                        android:layout_height="32dp"/>
+
+                    <TextView
+                        android:text="Vietnamese"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/bold_roboto"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".groupVoiceCall.openacall.ui.VoiceCallGroupActivity"
+    android:background="@drawable/gradient_bg"
+    android:keepScreenOn="true">
+
+    <EditText
+        android:id="@+id/msg_list"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        tools:ignore="LabelFor,TextFields" />
+
+
+    <LinearLayout
+        android:layout_marginBottom="50dp"
+        android:layout_above="@+id/members"
+        android:id="@+id/linearLayout11"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="130dp"
+            android:id="@+id/dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/group" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/black"
+            android:id="@+id/name"
+            android:textColor="#fff"
+            android:textSize="24sp" />
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/bold_roboto"
+            android:textColor="#fff"
+            android:layout_marginBottom="30dp"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginBottom="50dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/control_panel"
+        android:id="@+id/members"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"/>
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:id="@+id/control_panel"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp">
+
+        <ImageView
+            android:id="@+id/switch_speaker_id"
+            android:layout_marginEnd="16dp"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:onClick="onSwitchSpeakerClicked"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle"
+            android:backgroundTint="#41FFFFFF"
+            android:padding="15dp"
+            android:src="@drawable/ic_low"
+            app:tint="#fff"
+
+           tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_marginEnd="16dp"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:onClick="onVoiceMuteClicked"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle"
+            android:backgroundTint="#41FFFFFF"
+            android:padding="15dp"
+            android:src="@drawable/ic_mic"
+
+           tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:background="@drawable/circle"
+            android:backgroundTint="#F44336"
+            android:padding="15dp"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:onClick="onEndCallClicked"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_end"
+            app:tint="#fff"
+
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+</RelativeLayout>

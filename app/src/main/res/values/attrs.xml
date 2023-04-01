@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds">
+        <attr name="backgroundcolor" format="color"/>
+        <attr name="layoutcolor" format="color"/>
+        <attr name="left" format="color"/>
+        <attr name="textcolor" format="color"/>
+        <attr name="texttwocolor" format="color"/>
+        <attr name="selectedcolor" format="color" />
+        <attr name="defaultcolor" format="color" />
+        <attr name="startcolor" format="color"/>>
+        <attr name="endcolor" format="color" />
+    </declare-styleable>
+</resources>

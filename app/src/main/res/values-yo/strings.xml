@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">Iwiregbe aladani pẹlu fidio</string>
+    <string name="one_title">Wiregbe</string>
+    <string name="two_des">Ṣẹda tabi darapọ mọ awọn ẹgbẹ</string>
+    <string name="two_title">Awọn ẹgbẹ</string>
+    <string name="three_des">Ṣẹda ayẹyẹ aago, ipade awọsanma ati Awọn itan</string>
+    <string name="three_title">Die e sii</string>
+    <string name="skip">Rekọja</string>
+    <string name="next">Itele</string>
+    <string name="phone_no">Foonu No.</string>
+    <string name="please_enter_your_phone_no">Jọwọ tẹ nomba foonu rẹ sii.</string>
+    <string name="generate_otp">Ṣe ipilẹṣẹ OTP</string>
+    <string name="please_enter_6_digit_otp">Jọwọ tẹ OTP oni-nọmba 6 sii</string>
+    <string name="_6_digit_otp">6 oni-nọmba OTP</string>
+    <string name="verify_otp">Daju OTP</string>
+    <string name="signup">Forukọsilẹ</string>
+    <string name="please_enter_profile_details">Jọwọ tẹ awọn alaye profaili sii</string>
+    <string name="name">Oruko</string>
+    <string name="bio">Bio</string>
+    <string name="email">Imeeli</string>
+    <string name="search">Ṣewadii…</string>
+    <string name="save">Fipamọ</string>
+    <string name="send_message">Firanṣẹ ifiranṣẹ…</string>
+    <string name="link">Ọna asopọ</string>
+    <string name="start">Bẹrẹ</string>
+    <string name="upload_video_amp_start">Ṣe igbasilẹ fidio</string>
+    <string name="or">------- Tabi -----------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">Lẹẹmọ ọna asopọ fidio lati YouTube tabi DailyMotion</string>
+    <string name="invite">Pe</string>
+    <string name="groups">Awọn ẹgbẹ</string>
+    <string name="users">Awọn olumulo</string>
+    <string name="agora_access_token">Bọtini iwọle Agora rẹ</string>
+    <string name="agora_app_id">Agora App Id rẹ</string>
+    <string name="upload">Gbee si</string>
+    <string name="calling">Pípè</string>
+    <string name="group_name">Orukọ ẹgbẹ</string>
+    <string name="done">Ti ṣe</string>
+    <string name="add_members">Fi awọn ọmọ ẹgbẹ kun</string>
+    <string name="delete_group">Paarẹ Ẹgbẹ</string>
+    <string name="leave_group">Fi Ẹgbẹ silẹ</string>
+    <string name="menu">Akojọ aṣyn</string>
+    <string name="night_mode">Ipo Alẹ</string>
+    <string name="translation">Itumọ</string>
+    <string name="edit_profile">Profaili Ṣatunkọ</string>
+    <string name="invite_friend">Pe ọrẹ</string>
+    <string name="notification">Iwifunni</string>
+    <string name="delete_account">Pa akọọlẹ rẹ kuro</string>
+    <string name="privacy_policy">Asiri Afihan</string>
+    <string name="terms_amp_conditions">Awọn ofin</string>
+    <string name="logout">Jade jade</string>
+    <string name="allow_group_notification">Gba Ifitonileti Ẹgbẹ</string>
+    <string name="allow_private_notification">Gba Ifitonileti Ikọkọ laaye</string>
+    <string name="privacy_settings">Awọn Eto Aṣiri</string>
+    <string name="profile_photo">Fọto profaili</string>
+    <string name="online_status">Ipo lori ayelujara</string>
+    <string name="last_seen">Ti o kẹhin Wo</string>
+    <string name="about">Nipa</string>
+    <string name="who_can_text_you">Tani o le fi ọrọ ranṣẹ si ọ</string>
+    <string name="everyone">Gbogbo eniyan</string>
+    <string name="read_receipts">Ka awọn owo-owo</string>
+    <string name="hold_to_open_tap_to_send">Duro lati ṣii, Fọwọ ba lati firanṣẹ</string>
+    <string name="nothing_found">Ko si nkan ti a ri</string>
+    <string name="image">Aworan</string>
+    <string name="video">Fidio</string>
+    <string name="audio">Ohun</string>
+    <string name="document">Iwe aṣẹ</string>
+    <string name="location">Ipo</string>
+    <string name="sticker">Sitika</string>
+    <string name="watch_party">Watch Party</string>
+    <string name="contact">Olubasọrọ</string>
+    <string name="gif">GIF</string>
+    <string name="theme">Akori</string>
+    <string name="meeting">Ipade</string>
+    <string name="delete">Paarẹ</string>
+    <string name="reply">Fesi</string>
+    <string name="forward">Siwaju</string>
+    <string name="share">Pinpin</string>
+    <string name="download">Gbigba lati ayelujara</string>
+    <string name="copy">Daakọ</string>
+    <string name="theme_changed">Akori yipada</string>
+    <string name="meeting_invitation">Ipe ipade</string>
+    <string name="watch_party_invitation">Wo party ifiwepe</string>
+    <string name="online">Online</string>
+    <string name="block">Dina</string>
+    <string name="report">Iroyin</string>
+    <string name="chat">Wiregbe</string>
+
+</resources>

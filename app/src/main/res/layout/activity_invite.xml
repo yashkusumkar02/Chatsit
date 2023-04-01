@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/layoutcolor"
+    tools:context=".party.InviteActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/imageView"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/ic_back"
+                android:tint="#1C2A4D"
+                android:backgroundTint="#E4EAF1"
+                tools:ignore="ContentDescription,UnusedAttribute,UseAppTint" />
+
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:fontFamily="@font/bold_roboto"
+                android:textSize="20sp"
+                android:text="@string/next"
+                android:gravity="center"
+                android:textColor="?attr/textcolor"
+                tools:ignore="ContentDescription,RelativeOverlap,UnusedAttribute,UseAppTint" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/title"
+            android:fontFamily="@font/black"
+            android:textSize="50sp"
+            android:text="@string/invite"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/group_title"
+            android:fontFamily="@font/bold_roboto"
+            android:textSize="20sp"
+            android:text="@string/groups"
+            android:textColor="?attr/textcolor"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/group"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/users_title"
+            android:fontFamily="@font/bold_roboto"
+            android:textSize="20sp"
+            android:text="@string/users"
+            android:textColor="?attr/textcolor"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/users"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/nothing"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:alpha="0.4"
+                android:src="@drawable/ic_search"
+                android:layout_width="35dp"
+                android:layout_marginEnd="2dp"
+                android:layout_height="35dp"
+                tools:ignore="ContentDescription"
+                app:tint="?attr/texttwocolor" />
+
+            <TextView
+                android:alpha="0.5"
+                android:layout_marginTop="10dp"
+                android:text="@string/nothing_found"
+                android:fontFamily="@font/bold_roboto"
+                android:textColor="?attr/texttwocolor"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

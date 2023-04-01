@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".welcome.IntroActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/screen_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/next"
+            android:stateListAnimator="@null"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/btn_round"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/next"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/black"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            tools:ignore="UnusedAttribute" />
+
+        <Button
+            android:stateListAnimator="@null"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/btn_round"
+            android:backgroundTint="#E4EAF1"
+            android:layout_marginBottom="16dp"
+            android:text="@string/skip"
+            android:id="@+id/skip"
+            android:fontFamily="@font/black"
+            android:textColor="?attr/textcolor"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            tools:ignore="UnusedAttribute" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/indicator"
+            android:layout_width="100dp"
+            android:layout_height="13dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:tabBackground="@drawable/indicator_selector"
+            app:tabIndicatorHeight="0dp"
+            app:tabPaddingEnd="0dp"
+            app:tabPaddingStart="0dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

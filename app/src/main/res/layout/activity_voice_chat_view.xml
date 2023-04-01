@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".calling.VoiceChatViewActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="130dp"
+            android:id="@+id/dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/avatar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/black"
+            android:id="@+id/name"
+            android:textColor="#fff"
+            android:textSize="24sp" />
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/bold_roboto"
+            android:textColor="#fff"
+            android:layout_marginBottom="30dp"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/control_panel"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp">
+
+        <ImageView
+            android:layout_marginEnd="16dp"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:onClick="onSwitchSpeakerphoneClicked"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle"
+            android:backgroundTint="#41FFFFFF"
+            android:padding="15dp"
+            android:src="@drawable/ic_low"
+            app:tint="#fff"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+        <ImageView
+            android:layout_marginEnd="16dp"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:onClick="onLocalAudioMuteClicked"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle"
+            android:backgroundTint="#41FFFFFF"
+            android:padding="15dp"
+            android:src="@drawable/ic_mic_call"
+            android:contentDescription="TODO"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+        <ImageView
+            android:background="@drawable/circle"
+            android:backgroundTint="#F44336"
+            android:padding="15dp"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:onClick="onEncCallClicked"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_end"
+            app:tint="#fff"
+            android:contentDescription="TODO"
+           tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+</RelativeLayout>

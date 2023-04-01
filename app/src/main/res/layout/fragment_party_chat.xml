@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#F0F2F6"
+        android:src="@drawable/ic_back"
+        android:tint="#596C84"
+        tools:ignore="ContentDescription,UnusedAttribute,UseAppTint" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_rv"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+
+    <LinearLayout
+        android:background="#fff"
+        android:elevation="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:background="@drawable/btn_round"
+            android:backgroundTint="#F0F2F6"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="35dp">
+
+            <EditText
+                android:id="@+id/editText"
+                android:textSize="14sp"
+                android:layout_marginEnd="14dp"
+                android:layout_marginStart="14dp"
+                android:background="@null"
+                android:maxLines="1"
+                android:textColor="#1C2A4D"
+                android:inputType="text"
+                android:textColorHint="#6E6E6E"
+                android:hint="Send a comment..."
+                android:fontFamily="@font/bold_roboto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               tools:ignore="ContentDescription,HardcodedText"
+                android:importantForAutofill="no" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/message_send"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:contentDescription="TODO"
+            android:padding="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_send"
+            android:background="@drawable/btn_round"
+            android:backgroundTint="@color/colorPrimary"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+
+    </LinearLayout>
+</LinearLayout>

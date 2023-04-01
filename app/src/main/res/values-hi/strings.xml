@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">ChatsiT</string>
+
+    <!-- DOnt Touch -->
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <!-- keys -->
+    <string name="server_key">AAAAeaMBuL0:APA91bHjQTIPnp_T7SlaSpcwttqMs5GiN2zdES6BAGgygpbgDnhBK1_u5KxizIRTz1iZl-m56nLD8IUelSTmiK62ddj8yzzvAlNP5LL4xyDyspRZDduxfuQ2G_Qzx2AUa81_A2M_P5srChatsiT</string>
+    <string name="places_api_key" tools:ignore="TypographyDashes">AIzaSyCoezJQ7_58c0bLHXF5wBCjA8-5W0BzJ30</string>
+    <string name="map_box">sk.eyJ1Ijoic3BhY2VzdGVyIiwiYSI6ImNrbmg2djJmdzJpZGQyd2xjeTk3a2twNTQifQ.iIiTRT_GwIYwFMsCWP5XGA</string>
+
+    <string name="one_des">वीडियो के साथ निजी चैट</string>
+    <string name="one_title">चैट</string>
+    <string name="two_des">समूह बनाएं या जुड़ें</string>
+    <string name="two_title">समूहों</string>
+    <string name="three_des">वॉच पार्टी, क्लाउड मीटिंग और कहानियां बनाएं</string>
+    <string name="three_title">अधिक</string>
+    <string name="skip">छोड़ें</string>
+    <string name="next">अगला</string>
+    <string name="phone_no">फोन नंबर।</string>
+    <string name="please_enter_your_phone_no">कृपया अपना फोन नम्बर दर्ज करें।</string>
+    <string name="generate_otp">ओटीपी जनरेट करें</string>
+    <string name="please_enter_6_digit_otp">कृपया 6 अंकों का ओटीपी दर्ज करें</string>
+    <string name="_6_digit_otp">6 अंकों का ओटीपी</string>
+    <string name="verify_otp">ओटीपी सत्यापित करें</string>
+    <string name="signup">साइन अप करें</string>
+    <string name="please_enter_profile_details">कृपया प्रोफ़ाइल विवरण दर्ज करें</string>
+    <string name="name">नाम</string>
+    <string name="bio">जैव</string>
+    <string name="email">ईमेल</string>
+    <string name="search">खोज…</string>
+    <string name="save">सहेजें</string>
+    <string name="send_message">मेसेज भेजें…</string>
+    <string name="link">संपर्क</string>
+    <string name="start">शुरू</string>
+    <string name="upload_video_amp_start">विडियो को अॅॅपलोड करें</string>
+    <string name="or">---------- या ----------</string>
+    <string name="paste_video_link_from_youtube_or_dailymotion">YouTube या DailyMotion से वीडियो लिंक पेस्ट करें</string>
+    <string name="invite">आमंत्रण</string>
+    <string name="groups">समूहों</string>
+    <string name="users">उपयोगकर्ताओं</string>
+    <string name="agora_access_token">आपकी अगोरा पहुंच कुंजी</string>
+    <string name="agora_app_id">आपका अगोरा ऐप आईडी</string>
+    <string name="upload">डालना</string>
+    <string name="calling">कॉलिंग</string>
+    <string name="group_name">समूह नाम</string>
+    <string name="done">किया हुआ</string>
+    <string name="add_members">सदस्य जोड़ें</string>
+    <string name="delete_group">समूह हटाएं</string>
+    <string name="leave_group">समूह छोड़ दें</string>
+    <string name="menu">मेन्यू</string>
+    <string name="night_mode">रात्री स्वरुप</string>
+    <string name="translation">अनुवाद</string>
+    <string name="edit_profile">प्रोफ़ाइल संपादित करें</string>
+    <string name="invite_friend">मित्र को न्योता</string>
+    <string name="notification">अधिसूचना</string>
+    <string name="delete_account">खाता हटा दो</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="terms_amp_conditions">मामले</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="allow_group_notification">समूह अधिसूचना की अनुमति दें</string>
+    <string name="allow_private_notification">निजी अधिसूचना की अनुमति दें</string>
+    <string name="privacy_settings">गोपनीय सेटिंग</string>
+    <string name="profile_photo">प्रोफाइल फोटो</string>
+    <string name="online_status">ऑनलाइन स्थिति</string>
+    <string name="last_seen">अंतिम बार देखा गया</string>
+    <string name="about">के बारे में</string>
+    <string name="who_can_text_you">आपको कौन टेक्स्ट कर सकता है</string>
+    <string name="everyone">सब लोग</string>
+    <string name="read_receipts">रसीदें पढ़ें</string>
+    <string name="hold_to_open_tap_to_send">खोलने के लिए होल्ड करें, भेजने के लिए टैप करें</string>
+    <string name="nothing_found">कुछ भी नहीं मिला</string>
+    <string name="image">छवि</string>
+    <string name="video">वीडियो</string>
+    <string name="audio">ऑडियो</string>
+    <string name="document">डाक्यूमेंट</string>
+    <string name="location">स्थान</string>
+    <string name="sticker">कँटिया</string>
+    <string name="watch_party">पार्टी देखें</string>
+    <string name="contact">संपर्क</string>
+    <string name="gif">जीआईएफ</string>
+    <string name="theme">विषय</string>
+    <string name="meeting">मुलाकात</string>
+    <string name="delete">हटाएं</string>
+    <string name="reply">जवाब</string>
+    <string name="forward">आगे</string>
+    <string name="share">साझा करना</string>
+    <string name="download">डाउनलोड</string>
+    <string name="copy">प्रतिलिपि</string>
+    <string name="theme_changed">थीम बदली</string>
+    <string name="meeting_invitation">बैठक का आमंत्रण</string>
+    <string name="watch_party_invitation">पार्टी का निमंत्रण देखें</string>
+    <string name="online">ऑनलाइन</string>
+    <string name="block">खंड</string>
+    <string name="report">प्रतिवेदन</string>
+    <string name="chat">चैट</string>
+
+</resources>
